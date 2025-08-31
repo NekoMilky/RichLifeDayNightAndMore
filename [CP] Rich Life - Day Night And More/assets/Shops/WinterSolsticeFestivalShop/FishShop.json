@@ -1,0 +1,91 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "冬至节 - 鱼店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "FishShop", "Items" ],
+            "Entries": {
+                "(O)ChallengeBait": {
+                    "Id": "(O)ChallengeBait",
+                    "ItemId": "(O)ChallengeBait",
+                    "Price": 500,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)774": {
+                    "Id": "(O)774",
+                    "ItemId": "(O)774",
+                    "Price": 300,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)130": {
+                    "Id": "(O)130",
+                    "ItemId": "(O)130",
+                    "Price": 200,
+                    "AvailableStock": "{{ Random: {{ Range: 5, 10 }} }}",
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)705": {
+                    "Id": "(O)705",
+                    "ItemId": "(O)705",
+                    "Price": 150,
+                    "AvailableStock": "{{ Random: {{ Range: 5, 10 }} }}",
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)151": {
+                    "Id": "(O)151",
+                    "ItemId": "(O)151",
+                    "Price": 160,
+                    "AvailableStock": "{{ Random: {{ Range: 3, 5 }} }}",
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)730": {
+                    "Id": "(O)730",
+                    "ItemId": "(O)730",
+                    "Price": 450,
+                    "AvailableStock": 3,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)265": {
+                    "Id": "(O)265",
+                    "ItemId": "(O)265",
+                    "Price": 700,
+                    "AvailableStock": 1,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "(O)ChallengeBait",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)774",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)130",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)705",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)151",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)730",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)265",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

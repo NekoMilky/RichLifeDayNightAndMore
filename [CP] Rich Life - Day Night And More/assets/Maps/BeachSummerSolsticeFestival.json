@@ -1,0 +1,290 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "常规地图",
+            "Action": "Load",
+            "Target": "Maps/Beach_SummerSolsticeFestival",
+            "FromFile": "assets/Maps/Beach_SummerSolsticeFestival.tmx",
+            "When": {
+                "HasSVE": false
+            }
+        },
+        {
+            "JSONComment": "SVE地图",
+            "Action": "Load",
+            "Target": "Maps/Beach_SummerSolsticeFestival",
+            "FromFile": "assets/Maps/Beach_SummerSolsticeFestival_SVE.tmx",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "地点",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ ModPrefix }}BeachSummerSolsticeFestival": {
+                    "DisplayName": "{{ i18n: location.beach-summer-solstice-festival.name }}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Beach_SummerSolsticeFestival",
+                        "Type": "StardewValley.Locations.Beach"
+                    },
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "ocean"
+                            ]
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Chance": 0.18,
+                            "Season": "Summer",
+                            "PlayerPosition": {
+                                "X": 82,
+                                "Y": 0,
+                                "Width": 100,
+                                "Height": 100
+                            },
+                            "MinFishingLevel": 5,
+                            "MinDistanceFromShore": 3,
+                            "CatchLimit": 1,
+                            "IsBossFish": true,
+                            "Precedence": -100,
+                            "IgnoreFishDataRequirements": true,
+                            "CanBeInherited": false,
+                            "Condition": "!PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY",
+                            "Id": "(O)159",
+                            "ItemId": "(O)159"
+                        },
+                        {
+                            "Chance": 0.18,
+                            "Season": "Summer",
+                            "PlayerPosition": {
+                                "X": 82,
+                                "Y": 0,
+                                "Width": 100,
+                                "Height": 100
+                            },
+                            "MinFishingLevel": 5,
+                            "MinDistanceFromShore": 3,
+                            "CuriosityLureBuff": 0.07,
+                            "Precedence": -100,
+                            "IgnoreFishDataRequirements": true,
+                            "CanBeInherited": false,
+                            "Condition": "PLAYER_SPECIAL_ORDER_RULE_ACTIVE Current LEGENDARY_FAMILY",
+                            "Id": "(O)898",
+                            "ItemId": "(O)898"
+                        },
+                        {
+                            "Chance": 0.1,
+                            "Season": "Summer",
+                            "BobberPosition": {
+                                "X": 0,
+                                "Y": 32,
+                                "Width": 12,
+                                "Height": 255
+                            },
+                            "MinDistanceFromShore": 3,
+                            "CuriosityLureBuff": 0.205,
+                            "RequireMagicBait": true,
+                            "Precedence": -10,
+                            "IgnoreFishDataRequirements": true,
+                            "CanBeInherited": false,
+                            "Id": "(O)798|(O)799|(O)800",
+                            "RandomItemId": [
+                                "(O)798",
+                                "(O)799",
+                                "(O)800"
+                            ]
+                        },
+                        {
+                            "Chance": 0.1,
+                            "Season": "Summer",
+                            "IgnoreFishDataRequirements": true,
+                            "ChanceBoostPerLuckLevel": 0.05,
+                            "UseFishCaughtSeededRandom": true,
+                            "Id": "(O)SeaJelly",
+                            "ItemId": "(O)SeaJelly"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)152",
+                            "ItemId": "(O)152"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)708",
+                            "ItemId": "(O)708"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)267",
+                            "ItemId": "(O)267"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)128",
+                            "ItemId": "(O)128"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)130",
+                            "ItemId": "(O)130"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)146",
+                            "ItemId": "(O)146"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)149",
+                            "ItemId": "(O)149"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)150",
+                            "ItemId": "(O)150"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)155",
+                            "ItemId": "(O)155"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)701",
+                            "ItemId": "(O)701"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Id": "(O)837",
+                            "ItemId": "(O)837"
+                        }
+                    ],
+                    "ChanceForClay": 0.03,
+                    "MusicDefault": "ocean"
+                }
+            }
+        },
+        {
+            "JSONComment": "世界地图",
+            "Action": "EditData",
+            "Target": "Data/WorldMap",
+            "TargetField": [
+                "Valley",
+                "MapAreas"
+            ],
+            "Entries": {
+                "{{ ModPrefix }}BeachSummerSolsticeFestival": {
+                    "Id": "BeachSummerSolsticeFestival",
+                    "PixelArea": {
+                        "X": 186,
+                        "Y": 137,
+                        "Width": 57,
+                        "Height": 31
+                    },
+                    "WorldPositions": [
+                        {
+                            "Id": "BeachSummerSolsticeFestival",
+                            "LocationName": "{{ ModPrefix }}BeachSummerSolsticeFestival"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "JSONComment": "非家具椅子",
+            "Action": "EditData",
+            "Target": "Data/ChairTiles",
+            "Entries": {
+                "Beach_SummerSolsticeFestival_1/16/10": "1/1/down/chair/-1/-1/false"
+            }
+        },
+        {
+            "JSONComment": "节日未开始",
+            "Action": "EditMap",
+            "Target": "Maps/Beach_SummerSolsticeFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 32
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 50,
+                        "Y": 32
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 33
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 23,
+                        "Y": 39
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 24,
+                        "Y": 39
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 23,
+                        "Y": 40
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 24,
+                        "Y": 40
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 31,
+                        "Y": 41
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 32,
+                        "Y": 41
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                }
+            ],
+            "When": {
+                "IsSummerSolsticeFestival": true,
+                "Time": "{{ Range: 0600, 1559 }}"
+            },
+            "Update": "OnTimeChange"
+        }
+    ]
+}

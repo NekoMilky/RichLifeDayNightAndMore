@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "冬至节 - Joja超市",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Joja", "Items" ],
+            "Entries": {
+                "(O)PowdermelonSeeds": {
+                    "Id": "(O)PowdermelonSeeds",
+                    "ItemId": "(O)PowdermelonSeeds",
+                    "Price": 40,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "(O)PowdermelonSeeds",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

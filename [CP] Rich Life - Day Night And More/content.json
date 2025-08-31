@@ -1,0 +1,93 @@
+{
+    "Format": "2.7.0",
+    "DynamicTokens": [
+        {
+            "Name": "ModPrefix",
+            "Value": "NaiveMilky.RichLifeDayNightAndMoreCP_"
+        },
+        {
+            "Name": "ModPath",
+            "Value": "Mods/NaiveMilky.RichLifeDayNightAndMoreCP/"
+        },
+        {
+            "Name": "ModPathT",
+            "Value": "Mods\\NaiveMilky.RichLifeDayNightAndMoreCP\\"
+        },
+        {
+            "Name": "HasSVE",
+            "Value": false
+        },
+        {
+            "Name": "HasSVE",
+            "Value": true,
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        },
+        {
+            "Name": "IsSummerSolsticeFestival",
+            "Value": false
+        },
+        {
+            "Name": "IsSummerSolsticeFestival",
+            "Value": true,
+            "When": {
+                "Season": "Summer",
+                "Day": 14
+            }
+        },
+        {
+            "Name": "IsWinterSolsticeFestival",
+            "Value": false
+        },
+        {
+            "Name": "IsWinterSolsticeFestival",
+            "Value": true,
+            "When": {
+                "Season": "Winter",
+                "Day": 14
+            }
+        }
+    ],
+    "Changes": [
+        {
+            "JSONComment": "地图",
+            "Action": "Include",
+            "FromFile": "assets/Maps.json"
+        },
+        {
+            "JSONComment": "时钟贴图",
+            "Action": "Include",
+            "FromFile": "assets/ClockTexture.json",
+            "When": {
+                "NaiveMilky.RichLifeDayNightAndMore/ChangeClockTexture": true
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "JSONComment": "音乐",
+            "Action": "Include",
+            "FromFile": "assets/Music.json"
+        },
+        {
+            "JSONComment": "节日",
+            "Action": "Include",
+            "FromFile": "assets/Festivals.json"
+        },
+        {
+            "JSONComment": "物品",
+            "Action": "Include",
+            "FromFile": "assets/Items.json"
+        },
+        {
+            "JSONComment": "商店",
+            "Action": "Include",
+            "FromFile": "assets/Shops.json"
+        },
+        {
+            "JSONComment": "NPC",
+            "Action": "Include",
+            "FromFile": "assets/NPCs.json"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Andy",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.andy.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.andy.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Andy",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/1050 Custom_AndyHouse 5 6 0/1210 Forest 83 99 2/1500 Beach 55 22 1 \"Strings\\schedules\\Andy:{{ ModPrefix }}SummerSolsticeFestival_1\"/2240 Custom_AndyHouse 9 6 1 Andy_Sleep",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "0 Custom_AndyHouse 18 6 0/710 Custom_AndyHouse 20 6 0/1030 Custom_AndyHouse 5 6 0/1140 Forest 83 99 2/1440 Railroad 41 51 2 \"Strings\\schedules\\Andy:{{ ModPrefix }}WinterSolsticeFestival_1\"/2220 Custom_AndyHouse 9 6 1 Andy_Sleep"
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Andy", 1 ],
+                    "Value": "{{ ModPrefix }}Eggnog",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

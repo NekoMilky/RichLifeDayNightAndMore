@@ -1,0 +1,44 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "可可豆",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Crops/CocoaBean",
+            "FromFile": "assets/Items/Crops/Cocoa_Bean.png"
+        },
+        {
+            "JSONComment": "红豆",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Crops/RedBean",
+            "FromFile": "assets/Items/Crops/Red_Bean.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ ModPrefix }}CocoaBean": {
+                    "Texture": "{{ ModPathT }}Crops\\CocoaBean",
+                    "HarvestItemId": "{{ ModPrefix }}CocoaBean",
+                    "Seasons": [ "Summer" ],
+                    "DaysInPhase": [ 1, 2, 2, 3, 3 ],
+                    "RegrowDays": 4,
+                    "HarvestMaxStack": 7,
+                    "HarvestMinStack": 3,
+                    "CountForMonoculture": true,
+                    "CountForPolyculture": true
+                },
+                "{{ ModPrefix }}RedBeanSeeds": {
+                    "Texture": "{{ ModPathT }}Crops\\RedBean",
+                    "HarvestItemId": "{{ ModPrefix }}RedBean",
+                    "Seasons": [ "Summer" ],
+                    "DaysInPhase": [ 1, 1, 2, 2, 3 ],
+                    "RegrowDays": 3,
+                    "HarvestMaxStack": 4,
+                    "HarvestMinStack": 1,
+                    "CountForMonoculture": true,
+                    "CountForPolyculture": true
+                }
+            }
+        }
+    ]
+}

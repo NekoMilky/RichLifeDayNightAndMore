@@ -1,0 +1,30 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "木匠的商店",
+            "Action": "Include",
+            "FromFile": "assets/Shops/Carpenter.json"
+        },
+        {
+            "JSONComment": "皮埃尔的杂货店",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SeedShop.json"
+        },
+        {
+            "JSONComment": "夏至节商店",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop.json",
+            "When": {
+                "IsSummerSolsticeFestival": true
+            }
+        },
+        {
+            "JSONComment": "冬至节商店",
+            "Action": "Include",
+            "FromFile": "assets/Shops/WinterSolsticeFestivalShop.json",
+            "When": {
+                "IsWinterSolsticeFestival": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节 - 木匠的商店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "Entries": {
+                "(F)1692": {
+                    "Id": "(F)1692",
+                    "ItemId": "(F)1692",
+                    "Price": 1200,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(F)1687": {
+                    "Id": "(F)1687",
+                    "ItemId": "(F)1687",
+                    "Price": 1200,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(F)2397": {
+                    "Id": "(F)2397",
+                    "ItemId": "(F)2397",
+                    "Price": 700,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(BC)9": {
+                    "Id": "(BC)9",
+                    "ItemId": "(BC)9",
+                    "Price": 375,
+                    "AvailableStock": "{{ Random: {{ Range: 5, 10 }} }}",
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)330": {
+                    "Id": "(O)330",
+                    "ItemId": "(O)330",
+                    "Price": 40,
+                    "AvailableStock": 10,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)Moss": {
+                    "Id": "(O)Moss",
+                    "ItemId": "(O)Moss",
+                    "Price": 15,
+                    "AvailableStock": 100,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)771": {
+                    "Id": "(O)771",
+                    "ItemId": "(O)771",
+                    "Price": 15,
+                    "AvailableStock": 100,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "(F)1692",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(F)1687",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(F)2397",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(BC)9",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)330",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)Moss",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)771",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

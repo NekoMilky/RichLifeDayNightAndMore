@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Willy",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.willy.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.willy.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Willy",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "610 Beach 13 39 2 dick_fish/800 FishShop 5 4 2/1700 Beach 21 43 2 \"Strings\\schedules\\Willy:{{ ModPrefix }}SummerSolsticeFestival_1\"/2530 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "610 Beach 13 39 2 dick_fish/800 FishShop 5 4 2/1550 Railroad 62 54 0 \"Strings\\schedules\\Willy:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Willy",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "610 Beach 13 39 2 dick_fish/800 FishShop 5 4 2/1550 Railroad 51 58 0 \"Strings\\schedules\\Willy:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "一般",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Willy", 9 ],
+                    "Value": "{{ ModPrefix }}ShrimpTempura",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

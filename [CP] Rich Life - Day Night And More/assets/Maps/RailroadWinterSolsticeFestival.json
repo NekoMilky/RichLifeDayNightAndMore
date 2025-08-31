@@ -1,0 +1,133 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "常规地图",
+            "Action": "Load",
+            "Target": "Maps/Railroad_WinterSolsticeFestival",
+            "FromFile": "assets/Maps/Railroad_WinterSolsticeFestival.tmx",
+            "When": {
+                "HasSVE": false
+            }
+        },
+        {
+            "JSONComment": "SVE地图",
+            "Action": "Load",
+            "Target": "Maps/Railroad_WinterSolsticeFestival",
+            "FromFile": "assets/Maps/Railroad_WinterSolsticeFestival_SVE.tmx",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "地点",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ ModPrefix }}RailroadWinterSolsticeFestival": {
+                    "DisplayName": "{{ i18n: location.railroad-winter-solstice-festival.name }}",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\Railroad_WinterSolsticeFestival",
+                        "Type": "StardewValley.Locations.Railroad"
+                    },
+                    "ChanceForClay": 0.03
+                }
+            }
+        },
+        {
+            "JSONComment": "世界地图",
+            "Action": "EditData",
+            "Target": "Data/WorldMap",
+            "TargetField": [
+                "Valley",
+                "MapAreas"
+            ],
+            "Entries": {
+                "{{ ModPrefix }}RailroadWinterSolsticeFestival": {
+                    "Id": "RailroadWinterSolsticeFestival",
+                    "PixelArea": {
+                        "X": 140,
+                        "Y": 10,
+                        "Width": 46,
+                        "Height": 15
+                    },
+                    "WorldPositions": [
+                        {
+                            "Id": "RailroadWinterSolsticeFestival",
+                            "LocationName": "{{ ModPrefix }}RailroadWinterSolsticeFestival"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "JSONComment": "非家具椅子",
+            "Action": "EditData",
+            "Target": "Data/ChairTiles",
+            "Entries": {
+                "Railroad_WinterSolsticeFestival_1/11/9": "1/1/down/chair/-1/-1/false",
+                "Railroad_WinterSolsticeFestival_1/12/9": "1/1/right/chair/-1/-1/false",
+                "Railroad_WinterSolsticeFestival_1/13/9": "1/1/up/highback_chair/13/9/false/Maps\\Railroad_WinterSolsticeFestival_1",
+                "Railroad_WinterSolsticeFestival_1/14/9": "1/1/left/chair/-1/-1/false",
+                "Railroad_WinterSolsticeFestival_1/17/9": "1/1/down/stool/-1/-1/false"
+            }
+        },
+        {
+            "JSONComment": "节日未开始 - 常规补丁",
+            "Action": "EditMap",
+            "Target": "Maps/Railroad_WinterSolsticeFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 54,
+                        "Y": 46
+                    },
+                    "Layer": "Front2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 54,
+                        "Y": 47
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                }
+            ],
+            "When": {
+                "HasSVE": false,
+                "IsWinterSolsticeFestival": true,
+                "Time": "{{ Range: 0600, 1559 }}"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "JSONComment": "节日未开始 - SVE补丁",
+            "Action": "EditMap",
+            "Target": "Maps/Railroad_WinterSolsticeFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 39
+                    },
+                    "Layer": "Front2",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 40
+                    },
+                    "Layer": "Buildings2",
+                    "Remove": true
+                }
+            ],
+            "When": {
+                "HasSVE": true,
+                "IsWinterSolsticeFestival": true,
+                "Time": "{{ Range: 0600, 1559 }}"
+            },
+            "Update": "OnTimeChange"
+        }
+    ]
+}

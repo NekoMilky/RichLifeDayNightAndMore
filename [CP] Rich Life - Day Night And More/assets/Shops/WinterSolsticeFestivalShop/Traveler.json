@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "冬至节 - 旅行货车",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Owners" ],
+            "Entries": {
+                "WinterSolsticeFestivalClosed": {
+                    "Condition": "TIME 0000 1559",
+                    "Portrait": "",
+                    "Dialogues": [],
+                    "ClosedMessage": "{{ i18n: dialogue.shop-menu.closed }}",
+                    "Id": "WinterSolsticeFestivalClosed",
+                    "Name": "AnyOrNone"
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "WinterSolsticeFestivalClosed",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

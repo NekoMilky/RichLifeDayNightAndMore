@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Pierre",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.pierre.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.pierre.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Pierre",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "700 SeedShop 4 17 2/1630 Beach 15 5 2 \"Strings\\schedules\\Pierre:{{ ModPrefix }}SummerSolsticeFestival_1\"/2500 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "700 SeedShop 4 17 2/1610 Railroad 35 46 2 \"Strings\\schedules\\Pierre:{{ ModPrefix }}WinterSolsticeFestival_1\"/2330 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Pierre",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "700 SeedShop 4 17 2/1610 Railroad 24 46 2 \"Strings\\schedules\\Pierre:{{ ModPrefix }}WinterSolsticeFestival_1\"/2330 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pierre", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

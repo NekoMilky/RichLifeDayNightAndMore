@@ -1,0 +1,61 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Evelyn",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.evelyn.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.evelyn.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Evelyn",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2/1300 JoshHouse 20 20 3 evelyn_sit_left/1630 Beach 12 39 2 \"Strings\\schedules\\Evelyn:{{ ModPrefix }}SummerSolsticeFestival_1\"/2250 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "820 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1200 JoshHouse 3 19 2/1310 JoshHouse 20 20 3 evelyn_sit_left/1610 Railroad 56 52 2 \"Strings\\schedules\\Evelyn:{{ ModPrefix }}WinterSolsticeFestival_1\"/2110 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Evelyn",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "820 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1200 JoshHouse 3 19 2/1310 JoshHouse 20 20 3 evelyn_sit_left/1610 Railroad 64 54 2 \"Strings\\schedules\\Evelyn:{{ ModPrefix }}WinterSolsticeFestival_1\"/2110 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Evelyn", 1 ],
+                    "Value": "{{ ModPrefix }}MilkChocolate",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Evelyn", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "不喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Evelyn", 5 ],
+                    "Value": "{{ ModPrefix }}NanyangCoconutRice",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

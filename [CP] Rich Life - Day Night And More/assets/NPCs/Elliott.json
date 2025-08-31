@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Elliott",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.elliott.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.elliott.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Elliott",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "1620 Beach 45 11 2 \"Strings\\schedules\\Elliott:{{ ModPrefix }}SummerSolsticeFestival_1\"/2400 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1350 Beach 45 11 2 \"Strings\\schedules\\Elliott:{{ ModPrefix }}SummerSolsticeFestival_1\"/2500 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1430 Railroad 47 47 2 elliott_drink \"Strings\\schedules\\Elliott:{{ ModPrefix }}WinterSolsticeFestival_1\"/2200 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1450 Railroad 47 47 2 elliott_drink \"Strings\\schedules\\Elliott:{{ ModPrefix }}WinterSolsticeFestival_1\"/2220 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Elliott",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1430 Railroad 24 53 2 elliott_drink \"Strings\\schedules\\Elliott:{{ ModPrefix }}WinterSolsticeFestival_1\"/2200 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1450 Railroad 24 53 2 elliott_drink \"Strings\\schedules\\Elliott:{{ ModPrefix }}WinterSolsticeFestival_1\"/2220 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "不喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Elliott", 5 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

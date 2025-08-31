@@ -1,0 +1,143 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "青色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithAquaCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Aqua_Curtain.png"
+        },
+        {
+            "JSONComment": "黑色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithBlackCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Black_Curtain.png"
+        },
+        {
+            "JSONComment": "蓝色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithBlueCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Blue_Curtain.png"
+        },
+        {
+            "JSONComment": "蓝色波点遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithBlueDotCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Blue_Dot_Curtain.png"
+        },
+        {
+            "JSONComment": "蓝色天空遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithBlueSkyCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Blue_Sky_Curtain.png"
+        },
+        {
+            "JSONComment": "绿色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithGreenCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Green_Curtain.png"
+        },
+        {
+            "JSONComment": "橙色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithOrangeCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Orange_Curtain.png"
+        },
+        {
+            "JSONComment": "橙色花朵遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithOrangeFlowerCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Orange_Flower_Curtain.png"
+        },
+        {
+            "JSONComment": "粉色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithPinkCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Pink_Curtain.png"
+        },
+        {
+            "JSONComment": "粉色糖果遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithPinkCandyCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Pink_Candy_Curtain.png"
+        },
+        {
+            "JSONComment": "粉色云朵遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithPinkCloudCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Pink_Cloud_Curtain.png"
+        },
+        {
+            "JSONComment": "粉色波点遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithPinkDotCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Pink_Dot_Curtain.png"
+        },
+        {
+            "JSONComment": "粉色网格遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithPinkGridCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Pink_Grid_Curtain.png"
+        },
+        {
+            "JSONComment": "粉色爱心遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithPinkHeartCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Pink_Heart_Curtain.png"
+        },
+        {
+            "JSONComment": "紫色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithPurpleCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Purple_Curtain.png"
+        },
+        {
+            "JSONComment": "紫色森林遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithPurpleForestCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Purple_Forest_Curtain.png"
+        },
+        {
+            "JSONComment": "红色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithRedCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Red_Curtain.png"
+        },
+        {
+            "JSONComment": "白色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithWhiteCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_White_Curtain.png"
+        },
+        {
+            "JSONComment": "黄色遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithYellowCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Yellow_Curtain.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "{{ ModPrefix }}WindowWithAquaCurtain": "Window With Aqua Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-aqua-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithAquaCurtain",
+                "{{ ModPrefix }}WindowWithBlackCurtain": "Window With Black Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-black-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithBlackCurtain",
+                "{{ ModPrefix }}WindowWithBlueCurtain": "Window With Blue Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-blue-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithBlueCurtain",
+                "{{ ModPrefix }}WindowWithBlueDotCurtain": "Window With Blue Dot Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-blue-dot-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithBlueDotCurtain",
+                "{{ ModPrefix }}WindowWithBlueSkyCurtain": "Window With Blue Sky Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-blue-sky-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithBlueSkyCurtain",
+                "{{ ModPrefix }}WindowWithGreenCurtain": "Window With Green Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-green-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithGreenCurtain",
+                "{{ ModPrefix }}WindowWithOrangeCurtain": "Window With Orange Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-orange-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithOrangeCurtain",
+                "{{ ModPrefix }}WindowWithOrangeFlowerCurtain": "Window With Orange Flower Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-orange-flower-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithOrangeFlowerCurtain",
+                "{{ ModPrefix }}WindowWithPinkCurtain": "Window With Pink Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkCurtain",
+                "{{ ModPrefix }}WindowWithPinkCandyCurtain": "Window With Pink Candy Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-candy-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkCandyCurtain",
+                "{{ ModPrefix }}WindowWithPinkCloudCurtain": "Window With Pink Cloud Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-cloud-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkCloudCurtain",
+                "{{ ModPrefix }}WindowWithPinkDotCurtain": "Window With Pink Dot Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-dot-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkDotCurtain",
+                "{{ ModPrefix }}WindowWithPinkGridCurtain": "Window With Pink Grid Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-grid-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkGridCurtain",
+                "{{ ModPrefix }}WindowWithPinkHeartCurtain": "Window With Pink Heart Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-heart-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkHeartCurtain",
+                "{{ ModPrefix }}WindowWithPurpleCurtain": "Window With Purple Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-purple-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPurpleCurtain",
+                "{{ ModPrefix }}WindowWithPurpleForestCurtain": "Window With Purple Forest Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-purple-forest-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPurpleForestCurtain",
+                "{{ ModPrefix }}WindowWithRedCurtain": "Window With Red Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-red-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithRedCurtain",
+                "{{ ModPrefix }}WindowWithWhiteCurtain": "Window With White Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-white-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithWhiteCurtain",
+                "{{ ModPrefix }}WindowWithYellowCurtain": "Window With Yellow Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-yellow-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithYellowCurtain"
+            }
+        }
+    ]
+}

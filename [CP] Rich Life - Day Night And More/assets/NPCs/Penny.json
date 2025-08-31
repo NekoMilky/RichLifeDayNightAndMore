@@ -1,0 +1,57 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Penny",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.penny.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.penny.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Penny",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "a1500 Beach 26 2 0/1510 Beach 21 12 2 penny_beach_towel \"Strings\\schedules\\Penny:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2350 Beach 26 2 0/2400 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "900 Trailer 5 5 0/1100 Trailer 9 7 0/1230 Trailer 12 6 0 penny_dishes/1340 Trailer 14 4 2 penny_sit_down/a1500 Beach 26 2 0/1510 Beach 21 12 2 penny_beach_towel \"Strings\\schedules\\Penny:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2350 Beach 26 2 0/2400 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1430 Railroad 64 47 2 \"Strings\\schedules\\Penny:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "920 Trailer 5 5 0/1050 Trailer 9 7 0/1200 Trailer 12 6 0 penny_dishes/1320 Trailer 14 4 2 penny_sit_down/1450 Railroad 64 47 2 \"Strings\\schedules\\Penny:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Penny",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1430 Railroad 49 50 2 \"Strings\\schedules\\Penny:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "920 Trailer 5 5 0/1050 Trailer 9 7 0/1200 Trailer 12 6 0 penny_dishes/1320 Trailer 14 4 2 penny_sit_down/1450 Railroad 49 50 2 \"Strings\\schedules\\Penny:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Penny", 1 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk {{ ModPrefix }}HongKongStyleRedBeanIce {{ ModPrefix }}CoconutMilkShavedIce {{ ModPrefix }}NanyangCoconutRice {{ ModPrefix }}CoconutMilkJellyCubes",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "讨厌",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Penny", 7 ],
+                    "Value": "{{ ModPrefix }}Eggnog",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Lewis",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.lewis.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.lewis.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Lewis",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 56 2/1400 Town 41 57 0/1620 Beach 40 34 2 \"Strings\\schedules\\Lewis:{{ ModPrefix }}SummerSolsticeFestival_1\"/2430 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "830 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 56 2/1340 Town 41 57 0/1520 Railroad 46 49 3 lewis_drink \"Strings\\schedules\\Lewis:{{ ModPrefix }}WinterSolsticeFestival_1\"/2200 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Lewis",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "830 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 56 2/1340 Town 41 57 0/1520 Railroad 28 49 3 lewis_drink \"Strings\\schedules\\Lewis:{{ ModPrefix }}WinterSolsticeFestival_1\"/2200 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "不喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lewis", 5 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节 - 美人鱼",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestivalMermaid": {
+                    "Owners": [
+                        {
+                            "Condition": "TIME 0000 1559",
+                            "Portrait": "",
+                            "Dialogues": [],
+                            "ClosedMessage": "{{ i18n: dialogue.shop-menu.closed }}",
+                            "Id": "SummerSolsticeFestivalClosed",
+                            "Name": "AnyOrNone"
+                        },
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone",
+                            "Portrait": "",
+                            "Dialogues": [
+                                {
+                                    "Id": "Normal",
+                                    "Dialogue": "{{ i18n: dialogue.shop-menu.mermaid }}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "(O)797(O)372",
+                            "ItemId": "(O)797",
+                            "Price": 25000,
+                            "TradeItemId": "(O)372",
+                            "TradeItemAmount": 10,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)797(O)723",
+                            "ItemId": "(O)797",
+                            "Price": 25000,
+                            "TradeItemId": "(O)723",
+                            "TradeItemAmount": 10,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)372",
+                            "ItemId": "(O)372",
+                            "Price": 500,
+                            "Quality": 4,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

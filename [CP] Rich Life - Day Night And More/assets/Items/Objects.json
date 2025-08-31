@@ -1,0 +1,800 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "巧克力脆片",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/ChocolateBark",
+            "FromFile": "assets/Items/Objects/Chocolate_Bark.png"
+        },
+        {
+            "JSONComment": "巧克力奶昔",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/ChocolateMilkshake",
+            "FromFile": "assets/Items/Objects/Chocolate_Milkshake.png"
+        },
+        {
+            "JSONComment": "奶油",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/Cream",
+            "FromFile": "assets/Items/Objects/Cream.png"
+        },
+        {
+            "JSONComment": "拐杖糖",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/CandyCane",
+            "FromFile": "assets/Items/Objects/Candy_Cane.png"
+        },
+        {
+            "JSONComment": "美式咖啡",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/Americano",
+            "FromFile": "assets/Items/Objects/Americano.png"
+        },
+        {
+            "JSONComment": "拿铁",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/Latte",
+            "FromFile": "assets/Items/Objects/Latte.png"
+        },
+        {
+            "JSONComment": "生椰拿铁",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/CoconutLatte",
+            "FromFile": "assets/Items/Objects/Coconut_Latte.png"
+        },
+        {
+            "JSONComment": "摩卡咖啡",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/MochaCafe",
+            "FromFile": "assets/Items/Objects/Mocha_Cafe.png"
+        },
+        {
+            "JSONComment": "蛋奶酒",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/Eggnog",
+            "FromFile": "assets/Items/Objects/Eggnog.png"
+        },
+        {
+            "JSONComment": "热可可",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/HotCocoa",
+            "FromFile": "assets/Items/Objects/Hot_Cocoa.png"
+        },
+        {
+            "JSONComment": "草莓巧克力",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/StrawberryChocolate",
+            "FromFile": "assets/Items/Objects/Strawberry_Chocolate.png"
+        },
+        {
+            "JSONComment": "白巧克力",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/WhiteChocolate",
+            "FromFile": "assets/Items/Objects/White_Chocolate.png"
+        },
+        {
+            "JSONComment": "黑巧克力",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/DarkChocolate",
+            "FromFile": "assets/Items/Objects/Dark_Chocolate.png"
+        },
+        {
+            "JSONComment": "牛奶巧克力",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/MilkChocolate",
+            "FromFile": "assets/Items/Objects/Milk_Chocolate.png"
+        },
+        {
+            "JSONComment": "可可脂",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/CocoaButter",
+            "FromFile": "assets/Items/Objects/Cocoa_Butter.png"
+        },
+        {
+            "JSONComment": "可可粉",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/CocoaPowder",
+            "FromFile": "assets/Items/Objects/Cocoa_Powder.png"
+        },
+        {
+            "JSONComment": "可可豆",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/CocoaBean",
+            "FromFile": "assets/Items/Objects/Cocoa_Bean.png"
+        },
+        {
+            "JSONComment": "蛋挞",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/EggTart",
+            "FromFile": "assets/Items/Objects/Egg_Tart.png"
+        },
+        {
+            "JSONComment": "炸虾天妇罗",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/ShrimpTempura",
+            "FromFile": "assets/Items/Objects/Shrimp_Tempura.png"
+        },
+        {
+            "JSONComment": "铜锣烧",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/Dorayaki",
+            "FromFile": "assets/Items/Objects/Dorayaki.png"
+        },
+        {
+            "JSONComment": "椰奶小方",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/CoconutMilkJellyCubes",
+            "FromFile": "assets/Items/Objects/Coconut_Milk_Jelly_Cubes.png"
+        },
+        {
+            "JSONComment": "南洋椰浆饭",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/NanyangCoconutRice",
+            "FromFile": "assets/Items/Objects/Nanyang_Coconut_Rice.png"
+        },
+        {
+            "JSONComment": "椰奶刨冰",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/CoconutMilkShavedIce",
+            "FromFile": "assets/Items/Objects/Coconut_Milk_Shaved_Ice.png"
+        },
+        {
+            "JSONComment": "港式红豆冰",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/HongKongStyleRedBeanIce",
+            "FromFile": "assets/Items/Objects/Hong_Kong_Style_Red_Bean_Ice.png"
+        },
+        {
+            "JSONComment": "椰奶",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/CoconutMilk",
+            "FromFile": "assets/Items/Objects/Coconut_Milk.png"
+        },
+        {
+            "JSONComment": "红豆雪糕",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/RedBeanPopsicle",
+            "FromFile": "assets/Items/Objects/Red_Bean_Popsicle.png"
+        },
+        {
+            "JSONComment": "红豆粥",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/RedBeanCongee",
+            "FromFile": "assets/Items/Objects/Red_Bean_Congee.png"
+        },
+        {
+            "JSONComment": "红豆",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/RedBean",
+            "FromFile": "assets/Items/Objects/Red_Bean.png"
+        },
+        {
+            "JSONComment": "红豆种子",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/RedBeanSeeds",
+            "FromFile": "assets/Items/Objects/Red_Bean_Seeds.png"
+        },
+        {
+            "JSONComment": "盐",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/Salt",
+            "FromFile": "assets/Items/Objects/Salt.png"
+        },
+        {
+            "JSONComment": "冰",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/Ice",
+            "FromFile": "assets/Items/Objects/Ice.png"
+        },
+        {
+            "JSONComment": "水",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Objects/Water",
+            "FromFile": "assets/Items/Objects/Water.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ ModPrefix }}ChocolateBark": {
+                    "Name": "Chocolate Bark",
+                    "DisplayName": "{{ i18n: object.chocolate-bark.name }}",
+                    "Description": "{{ i18n: object.chocolate-bark.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\ChocolateBark",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 220,
+                    "ContextTags": [
+                        "color_brown"
+                    ],
+                    "Edibility": 45,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 330,
+                            "CustomAttributes": {
+                                "MaxStamina": 25.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}ChocolateMilkshake": {
+                    "Name": "Chocolate Milkshake",
+                    "DisplayName": "{{ i18n: object.chocolate-milkshake.name }}",
+                    "Description": "{{ i18n: object.chocolate-milkshake.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\ChocolateMilkshake",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "food_sweet"
+                    ],
+                    "Edibility": 50,
+                    "IsDrink": true
+                },
+                "{{ ModPrefix }}Cream": {
+                    "Name": "Cream",
+                    "DisplayName": "{{ i18n: object.cream.name }}",
+                    "Description": "{{ i18n: object.cream.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\Cream",
+                    "SpriteIndex": 0,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 225,
+                    "ContextTags": [
+                        "color_white"
+                    ],
+                    "Edibility": 15
+                },
+                "{{ ModPrefix }}CandyCane": {
+                    "Name": "Candy Cane",
+                    "DisplayName": "{{ i18n: object.candy-cane.name }}",
+                    "Description": "{{ i18n: object.candy-cane.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\CandyCane",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 125,
+                    "ContextTags": [
+                        "color_white",
+                        "food_sweet"
+                    ],
+                    "Edibility": 30,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 330,
+                            "CustomAttributes": {
+                                "LuckLevel": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}Americano": {
+                    "Name": "Americano",
+                    "DisplayName": "{{ i18n: object.americano.name }}",
+                    "Description": "{{ i18n: object.americano.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\Americano",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 470,
+                    "ContextTags": [
+                        "color_dark_brown",
+                        "drink_item",
+                        "coffee_item"
+                    ],
+                    "Edibility": 5,
+                    "IsDrink": true
+                },
+                "{{ ModPrefix }}Latte": {
+                    "Name": "Latte",
+                    "DisplayName": "{{ i18n: object.latte.name }}",
+                    "Description": "{{ i18n: object.latte.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\Latte",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 470,
+                    "ContextTags": [
+                        "color_dark_brown",
+                        "drink_item",
+                        "coffee_item"
+                    ],
+                    "Edibility": 5,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "Duration": 400,
+                            "CustomAttributes": {
+                                "Speed": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}CoconutLatte": {
+                    "Name": "Coconut Latte",
+                    "DisplayName": "{{ i18n: object.coconut-latte.name }}",
+                    "Description": "{{ i18n: object.coconut-latte.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\CoconutLatte",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 550,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "coffee_item"
+                    ],
+                    "Edibility": 12,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "Duration": 400,
+                            "CustomAttributes": {
+                                "Speed": 2.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}MochaCafe": {
+                    "Name": "Mocha Cafe",
+                    "DisplayName": "{{ i18n: object.mocha-cafe.name }}",
+                    "Description": "{{ i18n: object.mocha-cafe.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\MochaCafe",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "coffee_item"
+                    ],
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Drink",
+                            "Duration": 600,
+                            "CustomAttributes": {
+                                "Speed": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}Eggnog": {
+                    "Name": "Eggnog",
+                    "DisplayName": "{{ i18n: object.eggnog.name }}",
+                    "Description": "{{ i18n: object.eggnog.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\Eggnog",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 600,
+                    "ContextTags": [
+                        "alcohol_item",
+                        "drink_item",
+                        "color_yellow"
+                    ],
+                    "Edibility": 25,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Tipsy",
+                            "BuffId": "17"
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}HotCocoa": {
+                    "Name": "Hot Cocoa",
+                    "DisplayName": "{{ i18n: object.hot-cocoa.name }}",
+                    "Description": "{{ i18n: object.hot-cocoa.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\HotCocoa",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 180,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "food_sweet"
+                    ],
+                    "Edibility": 25,
+                    "IsDrink": true
+                },
+                "{{ ModPrefix }}StrawberryChocolate": {
+                    "Name": "Strawberry Chocolate",
+                    "DisplayName": "{{ i18n: object.strawberry-chocolate.name }}",
+                    "Description": "{{ i18n: object.strawberry-chocolate.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\StrawberryChocolate",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "ContextTags": [
+                        "color_pink",
+                        "food_sweet"
+                    ],
+                    "Edibility": 38,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 400,
+                            "CustomAttributes": {
+                                "LuckLevel": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}WhiteChocolate": {
+                    "Name": "White Chocolate",
+                    "DisplayName": "{{ i18n: object.white-chocolate.name }}",
+                    "Description": "{{ i18n: object.white-chocolate.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\WhiteChocolate",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "ContextTags": [
+                        "color_white",
+                        "food_sweet"
+                    ],
+                    "Edibility": 55,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 330,
+                            "CustomAttributes": {
+                                "MaxStamina": 25.0,
+                                "MagneticRadius": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}DarkChocolate": {
+                    "Name": "Dark Chocolate",
+                    "DisplayName": "{{ i18n: object.dark-chocolate.name }}",
+                    "Description": "{{ i18n: object.dark-chocolate.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\DarkChocolate",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 220,
+                    "ContextTags": [
+                        "color_dark_brown"
+                    ],
+                    "Edibility": 32,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 430,
+                            "CustomAttributes": {
+                                "MiningLevel": 1.0,
+                                "Speed": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}MilkChocolate": {
+                    "Name": "Milk Chocolate",
+                    "DisplayName": "{{ i18n: object.milk-chocolate.name }}",
+                    "Description": "{{ i18n: object.milk-chocolate.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\MilkChocolate",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 180,
+                    "ContextTags": [
+                        "color_brown",
+                        "food_sweet"
+                    ],
+                    "Edibility": 40
+                },
+                "{{ ModPrefix }}CocoaButter": {
+                    "Name": "Cocoa Butter",
+                    "DisplayName": "{{ i18n: object.cocoa-butter.name }}",
+                    "Description": "{{ i18n: object.cocoa-butter.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\CocoaButter",
+                    "SpriteIndex": 0,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 180,
+                    "ContextTags": [
+                        "color_yellow"
+                    ],
+                    "Edibility": 4
+                },
+                "{{ ModPrefix }}CocoaPowder": {
+                    "Name": "Cocoa Powder",
+                    "DisplayName": "{{ i18n: object.cocoa-powder.name }}",
+                    "Description": "{{ i18n: object.cocoa-powder.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\CocoaPowder",
+                    "SpriteIndex": 0,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 120,
+                    "ContextTags": [
+                        "color_brown"
+                    ],
+                    "Edibility": 2
+                },
+                "{{ ModPrefix }}CocoaBean": {
+                    "Name": "Cocoa Bean",
+                    "DisplayName": "{{ i18n: object.cocoa-bean.name }}",
+                    "Description": "{{ i18n: object.cocoa-bean.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\CocoaBean",
+                    "SpriteIndex": 0,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 18,
+                    "ContextTags": [
+                        "color_dark_brown"
+                    ]
+                },
+                "{{ ModPrefix }}EggTart": {
+                    "Name": "Egg Tart",
+                    "DisplayName": "{{ i18n: object.egg-tart.name }}",
+                    "Description": "{{ i18n: object.egg-tart.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\EggTart",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 90,
+                    "ContextTags": [
+                        "color_orange",
+                        "food_sweet"
+                    ],
+                    "Edibility": 30
+                },
+                "{{ ModPrefix }}ShrimpTempura": {
+                    "Name": "Shrimp Tempura",
+                    "DisplayName": "{{ i18n: object.shrimp-tempura.name }}",
+                    "Description": "{{ i18n: object.shrimp-tempura.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\ShrimpTempura",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 175,
+                    "ContextTags": [
+                        "color_orange"
+                    ],
+                    "Edibility": 45,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 300,
+                            "CustomAttributes": {
+                                "FishingLevel": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}Dorayaki": {
+                    "Name": "Dorayaki",
+                    "DisplayName": "{{ i18n: object.dorayaki.name }}",
+                    "Description": "{{ i18n: object.dorayaki.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\Dorayaki",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 150,
+                    "ContextTags": [
+                        "color_orange"
+                    ],
+                    "Edibility": 35
+                },
+                "{{ ModPrefix }}CoconutMilkJellyCubes": {
+                    "Name": "Coconut Milk Jelly Cubes",
+                    "DisplayName": "{{ i18n: object.coconut-milk-jelly-cubes.name }}",
+                    "Description": "{{ i18n: object.coconut-milk-jelly-cubes.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\CoconutMilkJellyCubes",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 170,
+                    "ContextTags": [
+                        "color_white"
+                    ],
+                    "Edibility": 40
+                },
+                "{{ ModPrefix }}NanyangCoconutRice": {
+                    "Name": "Nanyang Coconut Rice",
+                    "DisplayName": "{{ i18n: object.nanyang-coconut-rice.name }}",
+                    "Description": "{{ i18n: object.nanyang-coconut-rice.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\NanyangCoconutRice",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 190,
+                    "ContextTags": [
+                        "color_white"
+                    ],
+                    "Edibility": 65,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 400,
+                            "CustomAttributes": {
+                                "FishingLevel": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}CoconutMilkShavedIce": {
+                    "Name": "Coconut Milk Shaved Ice",
+                    "DisplayName": "{{ i18n: object.coconut-milk-shaved-ice.name }}",
+                    "Description": "{{ i18n: object.coconut-milk-shaved-ice.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\CoconutMilkShavedIce",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 175,
+                    "ContextTags": [
+                        "color_white"
+                    ],
+                    "Edibility": 45
+                },
+                "{{ ModPrefix }}HongKongStyleRedBeanIce": {
+                    "Name": "Hong Kong Style Red Bean Ice",
+                    "DisplayName": "{{ i18n: object.hong-kong-style-red-bean-ice.name }}",
+                    "Description": "{{ i18n: object.hong-kong-style-red-bean-ice.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\HongKongStyleRedBeanIce",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 180,
+                    "ContextTags": [
+                        "color_red",
+                        "food_sweet"
+                    ],
+                    "Edibility": 45,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 300,
+                            "CustomAttributes": {
+                                "Speed": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}CoconutMilk": {
+                    "Name": "Coconut Milk",
+                    "DisplayName": "{{ i18n: object.coconut-milk.name }}",
+                    "Description": "{{ i18n: object.coconut-milk.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\CoconutMilk",
+                    "SpriteIndex": 0,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 160,
+                    "ContextTags": [
+                        "color_white",
+                        "drink_item",
+                        "milk_item"
+                    ],
+                    "Edibility": 20,
+                    "IsDrink": true
+                },
+                "{{ ModPrefix }}RedBeanPopsicle": {
+                    "Name": "Red Bean Popsicle",
+                    "DisplayName": "{{ i18n: object.red-bean-popsicle.name }}",
+                    "Description": "{{ i18n: object.red-bean-popsicle.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\RedBeanPopsicle",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 120,
+                    "ContextTags": [
+                        "color_red"
+                    ],
+                    "Edibility": 40,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 300,
+                            "CustomAttributes": {
+                                "LuckLevel": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}RedBeanCongee": {
+                    "Name": "Red Bean Congee",
+                    "DisplayName": "{{ i18n: object.red-bean-congee.name }}",
+                    "Description": "{{ i18n: object.red-bean-congee.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\RedBeanCongee",
+                    "SpriteIndex": 0,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 175,
+                    "ContextTags": [
+                        "color_red"
+                    ],
+                    "Edibility": 55,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "Duration": 400,
+                            "CustomAttributes": {
+                                "LuckLevel": 2.0,
+                                "Defense": 1.0
+                            }
+                        }
+                    ]
+                },
+                "{{ ModPrefix }}RedBean": {
+                    "Name": "Red Bean",
+                    "DisplayName": "{{ i18n: object.red-bean.name }}",
+                    "Description": "{{ i18n: object.red-bean.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\RedBean",
+                    "SpriteIndex": 0,
+                    "Type": "Basic",
+                    "Category": -75,
+                    "Price": 45,
+                    "ContextTags": [
+                        "color_red"
+                    ],
+                    "Edibility": 25
+                },
+                "{{ ModPrefix }}RedBeanSeeds": {
+                    "Name": "Red Bean Seeds",
+                    "DisplayName": "{{ i18n: object.red-bean-seeds.name }}",
+                    "Description": "{{ i18n: object.red-bean-seeds.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\RedBeanSeeds",
+                    "SpriteIndex": 0,
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 15
+                },
+                "{{ ModPrefix }}Salt": {
+                    "Name": "Salt",
+                    "DisplayName": "{{ i18n: object.salt.name }}",
+                    "Description": "{{ i18n: object.salt.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\Salt",
+                    "SpriteIndex": 0,
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 100,
+                    "ContextTags": [
+                        "color_white"
+                    ],
+                    "Edibility": 3
+                },
+                "{{ ModPrefix }}Ice": {
+                    "Name": "Ice",
+                    "DisplayName": "{{ i18n: object.ice.name }}",
+                    "Description": "{{ i18n: object.ice.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\Ice",
+                    "SpriteIndex": 0,
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 30,
+                    "Edibility": 1
+                },
+                "{{ ModPrefix }}Water": {
+                    "Name": "Water",
+                    "DisplayName": "{{ i18n: object.water.name }}",
+                    "Description": "{{ i18n: object.water.description }}",
+                    "Texture": "{{ ModPathT }}Objects\\Water",
+                    "SpriteIndex": 0,
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 15,
+                    "ContextTags": [
+                        "color_blue",
+                        "drink_item"
+                    ],
+                    "Edibility": 1,
+                    "IsDrink": true
+                }
+            }
+        }
+    ]
+}

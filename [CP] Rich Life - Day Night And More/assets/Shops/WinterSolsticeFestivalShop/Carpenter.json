@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "冬至节 - 木匠的商店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "Entries": {
+                "(O)330": {
+                    "Id": "(O)330",
+                    "ItemId": "(O)330",
+                    "Price": 40,
+                    "AvailableStock": 10,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)Moss": {
+                    "Id": "(O)Moss",
+                    "ItemId": "(O)Moss",
+                    "Price": 15,
+                    "AvailableStock": 10,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)771": {
+                    "Id": "(O)771",
+                    "ItemId": "(O)771",
+                    "Price": 15,
+                    "AvailableStock": 10,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "(O)330",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)Moss",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)771",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

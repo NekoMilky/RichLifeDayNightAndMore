@@ -1,0 +1,294 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "婚后对话 - 睡眠质量差",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogue",
+            "Entries": {
+                "SleptBadly_0": "{{ i18n: dialogue.married.slept-badly.1 }}",
+                "SleptBadly_1": "{{ i18n: dialogue.married.slept-badly.2 }}",
+                "SleptBadly_2": "{{ i18n: dialogue.married.slept-badly.3 }}"
+            }
+        },
+        {
+            "JSONComment": "普遍一般的礼物",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Neutral"
+                    ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "JSONComment": "阿比盖尔",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Abigail.json"
+        },
+        {
+            "JSONComment": "亚历克斯",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Alex.json"
+        },
+        {
+            "JSONComment": "安迪 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Andy.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "苹果 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Apples.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "卡洛琳",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Caroline.json"
+        },
+        {
+            "JSONComment": "克莱尔 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Claire.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "克林特",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Clint.json"
+        },
+        {
+            "JSONComment": "德米特里厄斯",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Demetrius.json"
+        },
+        {
+            "JSONComment": "艾利欧特",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Elliott.json"
+        },
+        {
+            "JSONComment": "艾米丽",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Emily.json"
+        },
+        {
+            "JSONComment": "艾芙琳",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Evelyn.json"
+        },
+        {
+            "JSONComment": "乔治",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/George.json"
+        },
+        {
+            "JSONComment": "格斯",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Gus.json"
+        },
+        {
+            "JSONComment": "海莉",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Haley.json"
+        },
+        {
+            "JSONComment": "哈维",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Harvey.json"
+        },
+        {
+            "JSONComment": "贾斯",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Jas.json"
+        },
+        {
+            "JSONComment": "乔迪",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Jodi.json"
+        },
+        {
+            "JSONComment": "肯特",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Kent.json"
+        },
+        {
+            "JSONComment": "兰斯 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Lance.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "莉亚",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Leah.json"
+        },
+        {
+            "JSONComment": "雷欧",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Leo.json"
+        },
+        {
+            "JSONComment": "刘易斯",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Lewis.json"
+        },
+        {
+            "JSONComment": "莱纳斯",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Linus.json"
+        },
+        {
+            "JSONComment": "马龙 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Marlon.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "玛妮",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Marnie.json"
+        },
+        {
+            "JSONComment": "马丁 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Martin.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "玛鲁",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Maru.json"
+        },
+        {
+            "JSONComment": "摩根 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Morgan.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "莫里斯 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Morris.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "奥利维亚 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Olivia.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "潘姆",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Pam.json"
+        },
+        {
+            "JSONComment": "潘妮",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Penny.json"
+        },
+        {
+            "JSONComment": "皮埃尔",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Pierre.json"
+        },
+        {
+            "JSONComment": "罗宾",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Robin.json"
+        },
+        {
+            "JSONComment": "山姆",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Sam.json"
+        },
+        {
+            "JSONComment": "桑迪",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Sandy.json"
+        },
+        {
+            "JSONComment": "斯嘉丽 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Scarlett.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "塞巴斯蒂安",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Sebastian.json"
+        },
+        {
+            "JSONComment": "谢恩",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Shane.json"
+        },
+        {
+            "JSONComment": "索菲娅 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Sophia.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "苏珊 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Susan.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "维克多 - SVE",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Victor.json",
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "文森特",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Vincent.json"
+        },
+        {
+            "JSONComment": "威利",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Willy.json"
+        },
+        {
+            "JSONComment": "法师",
+            "Action": "Include",
+            "FromFile": "assets/NPCs/Wizard.json"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Emily",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.emily.1 }}",
+                "{{ ModPrefix }}SummerSolsticeFestival_2": "{{ i18n: dialogue.npc.summer-solstice-festival.emily.2 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.emily.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Emily",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "a1440 BusStop 23 13 0/1500 Beach 26 2 0/1510 Beach 42 14 2 emily_beach_dance \"Strings\\schedules\\Emily:{{ ModPrefix }}SummerSolsticeFestival_1\"/1910 Beach 26 2 0/1920 Beach 9 14 3 \"Strings\\schedules\\Emily:{{ ModPrefix }}SummerSolsticeFestival_2\"/a2430 BusStop 23 13 0/2440 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "MAIL ccVault/GOTO {{ ModPrefix }}SummerSolsticeFestival_1_Normal/900 HaleyHouse 16 5 2/1100 HaleyHouse 3 16 0/a1440 BusStop 23 13 0/1500 Beach 26 2 0/1510 Beach 42 14 2 emily_beach_dance \"Strings\\schedules\\Emily:{{ ModPrefix }}SummerSolsticeFestival_1\"/1910 Beach 26 2 0/1920 Beach 9 14 3 \"Strings\\schedules\\Emily:{{ ModPrefix }}SummerSolsticeFestival_2\"/a2430 BusStop 23 13 0/2440 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1_Normal": "900 HaleyHouse 16 5 2/1100 HaleyHouse 3 16 0/a1710 Beach 26 2 0/1720 Beach 42 14 2 emily_beach_dance \"Strings\\schedules\\Emily:{{ ModPrefix }}SummerSolsticeFestival_1\"/a1930 Beach 26 2 0/1940 Beach 9 14 3 \"Strings\\schedules\\Emily:{{ ModPrefix }}SummerSolsticeFestival_2\"/2400 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1500 Railroad 52 52 3 \"Strings\\schedules\\Emily:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "900 HaleyHouse 16 5 2/1100 HaleyHouse 3 16 0/1500 Railroad 52 52 3 \"Strings\\schedules\\Emily:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Emily",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1500 Railroad 61 57 3 \"Strings\\schedules\\Emily:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "900 HaleyHouse 16 5 2/1100 HaleyHouse 3 16 0/1500 Railroad 61 57 3 \"Strings\\schedules\\Emily:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "一般",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Emily", 9 ],
+                    "Value": "{{ ModPrefix }}RedBeanPopsicle {{ ModPrefix }}HongKongStyleRedBeanIce {{ ModPrefix }}CoconutMilkShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

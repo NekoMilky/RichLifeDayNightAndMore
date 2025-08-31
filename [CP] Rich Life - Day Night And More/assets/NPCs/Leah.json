@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Leah",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.leah.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.leah.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Leah",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "a1540 Beach 26 2 0/1550 Beach 49 21 2 leah_beach_drink \"Strings\\schedules\\Leah:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2310 Beach 26 2 0/2320 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1330 LeahHouse 9 5 0/a1540 Beach 26 2 0/1550 Beach 49 21 2 leah_beach_drink \"Strings\\schedules\\Leah:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2310 Beach 26 2 0/2320 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1430 Railroad 38 53 0 \"Strings\\schedules\\Leah:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "920 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1320 LeahHouse 9 5 0/1510 Railroad 38 53 0 \"Strings\\schedules\\Leah:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Leah",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1430 Railroad 45 57 0 \"Strings\\schedules\\Leah:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "920 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1320 LeahHouse 9 5 0/1510 Railroad 45 57 0 \"Strings\\schedules\\Leah:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Leah", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

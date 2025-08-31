@@ -1,0 +1,54 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Pam",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.pam.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.pam.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Pam",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "800 Trailer 15 4 2 pam_sit_down/1430 Beach 19 10 2 \"Strings\\schedules\\Pam:{{ ModPrefix }}SummerSolsticeFestival_1\"/2350 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "900 Trailer 15 4 2 pam_sit_down/1450 Railroad 65 47 2 \"Strings\\schedules\\Pam:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Pam",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "900 Trailer 15 4 2 pam_sit_down/1450 Railroad 50 50 2 \"Strings\\schedules\\Pam:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pam", 1 ],
+                    "Value": "{{ ModPrefix }}Eggnog",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pam", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

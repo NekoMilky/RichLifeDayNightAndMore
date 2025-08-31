@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>RichLifeDayNightAndMore</AssemblyName>
+	<Version>1.0.0</Version>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+	<EnableHarmony>true</EnableHarmony>
+	<GamePath>E:\SteamLibrary\steamapps\common\Stardew Valley</GamePath>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+  </ItemGroup>
+</Project>

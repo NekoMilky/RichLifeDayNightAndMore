@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "日光仪",
+            "Action": "Load",
+            "Target": "{{ ModPath }}BigCraftables/Heliograph",
+            "FromFile": "assets/Items/BigCraftables/Heliograph.png"
+        },
+        {
+            "JSONComment": "离心机",
+            "Action": "Load",
+            "Target": "{{ ModPath }}BigCraftables/Centrifuge",
+            "FromFile": "assets/Items/BigCraftables/Centrifuge.png"
+        },
+        {
+            "JSONComment": "制冰机",
+            "Action": "Load",
+            "Target": "{{ ModPath }}BigCraftables/IceMachine",
+            "FromFile": "assets/Items/BigCraftables/Ice_Machine.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ ModPrefix }}Heliograph": {
+                    "Name": "Heliograph",
+                    "DisplayName": "{{ i18n: big-craftables.heliograph.name }}",
+                    "Description": "{{ i18n: big-craftables.heliograph.description }}",
+                    "Price": 50,
+                    "Texture": "{{ ModPathT }}BigCraftables\\Heliograph",
+                    "SpriteIndex": 0
+                },
+                "{{ ModPrefix }}Centrifuge": {
+                    "Name": "Centrifuge",
+                    "DisplayName": "{{ i18n: big-craftables.centrifuge.name }}",
+                    "Description": "{{ i18n: big-craftables.centrifuge.description }}",
+                    "Price": 75,
+                    "Texture": "{{ ModPathT }}BigCraftables\\Centrifuge",
+                    "SpriteIndex": 0
+                },
+                "{{ ModPrefix }}IceMachine": {
+                    "Name": "Ice Machine",
+                    "DisplayName": "{{ i18n: big-craftables.ice-machine.name }}",
+                    "Description": "{{ i18n: big-craftables.ice-machine.description }}",
+                    "Price": 50,
+                    "Texture": "{{ ModPathT }}BigCraftables\\IceMachine",
+                    "SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}

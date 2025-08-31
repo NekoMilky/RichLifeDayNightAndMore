@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "讨厌",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Apples", 7 ],
+                    "Value": "{{ ModPrefix }}RedBeanSeeds {{ ModPrefix }}CocoaBean",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

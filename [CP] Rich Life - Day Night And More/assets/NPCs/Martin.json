@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Martin", 1 ],
+                    "Value": "{{ ModPrefix }}RedBeanPopsicle",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Martin", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "讨厌",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Martin", 7 ],
+                    "Value": "{{ ModPrefix }}Eggnog",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

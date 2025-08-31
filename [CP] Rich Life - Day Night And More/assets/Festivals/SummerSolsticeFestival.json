@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节",
+            "Action": "EditData",
+            "Target": "Data/PassiveFestivals",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival": {
+                    "DisplayName": "{{ i18n: festival.summer-solstice-festival.name }}",
+                    "Condition": "",
+                    "ShowOnCalendar": true,
+                    "Season": "Summer",
+                    "StartDay": 14,
+                    "EndDay": 14,
+                    "StartTime": 1600,
+                    "StartMessage": "{{ i18n: festival.summer-solstice-festival.open }}",
+                    "OnlyShowMessageOnFirstDay": false,
+                    "MapReplacements": {
+                        "Beach": "{{ ModPrefix }}BeachSummerSolsticeFestival"
+                    }
+                }
+            }
+        },
+        {
+            "JSONComment": "夏至节通知",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestivalReminder": "{{ i18n: mail.summer-solstice-festival-reminder }}"
+            }
+        }
+    ]
+}

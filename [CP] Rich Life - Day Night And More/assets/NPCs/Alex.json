@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Alex",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.alex.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.alex.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Alex",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "a1540 Beach 28 2 0/1550 Beach 35 18 2 alex_beach_towel \"Strings\\schedules\\Alex:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2350 Beach 28 2 0/2400 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "MAIL saloonSportsRoom/GOTO {{ ModPrefix }}SummerSolsticeFestival_1_Normal/800 Town 64 64 2 alex_football/1100 Saloon 32 7 0/1230 Town 50 68 1/a1540 Beach 28 2 0/1550 Beach 35 18 2 alex_beach_towel \"Strings\\schedules\\Alex:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2420 Beach 28 2 0/2430 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1_Normal": "730 Beach 31 20 2/1200 Town 88 91 2/a1540 Beach 28 2 0/1550 Beach 35 18 2 alex_beach_towel \"Strings\\schedules\\Alex:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2420 Beach 28 2 0/2430 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1520 Railroad 56 55 0 \"Strings\\schedules\\Alex:{{ ModPrefix }}WinterSolsticeFestival_1\"/2310 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "MAIL saloonSportsRoom/GOTO {{ ModPrefix }}WinterSolsticeFestival_1_Normal/830 Town 64 64 2 alex_football/1100 Saloon 32 7 0/1230 Town 50 68 1/1550 Railroad 56 55 0 \"Strings\\schedules\\Alex:{{ ModPrefix }}WinterSolsticeFestival_1\"/2340 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1_Normal": "830 Beach 31 20 2/1200 Town 88 91 2/1550 Railroad 56 55 0 \"Strings\\schedules\\Alex:{{ ModPrefix }}WinterSolsticeFestival_1\"/2340 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Alex",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1520 Railroad 64 57 0 \"Strings\\schedules\\Alex:{{ ModPrefix }}WinterSolsticeFestival_1\"/2310 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "MAIL saloonSportsRoom/GOTO {{ ModPrefix }}WinterSolsticeFestival_1_Normal/830 Town 64 64 2 alex_football/1100 Saloon 32 7 0/1230 Town 50 68 1/1550 Railroad 64 57 0 \"Strings\\schedules\\Alex:{{ ModPrefix }}WinterSolsticeFestival_1\"/2340 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1_Normal": "830 Beach 31 20 2/1200 Town 88 91 2/1550 Railroad 64 57 0 \"Strings\\schedules\\Alex:{{ ModPrefix }}WinterSolsticeFestival_1\"/2340 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        }
+    ]
+}

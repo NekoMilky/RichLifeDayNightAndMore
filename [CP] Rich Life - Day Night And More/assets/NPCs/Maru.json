@@ -1,0 +1,57 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Maru",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.maru.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.maru.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Maru",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "1500 Beach 46 13 2 \"Strings\\schedules\\Maru:{{ ModPrefix }}SummerSolsticeFestival_1\"/2000 Beach 11 30 3 \"Strings\\schedules\\Maru:{{ ModPrefix }}SummerSolsticeFestival_1\"/2400 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "800 ScienceHouse 5 6 1 maru_tinker/900 ScienceHouse 19 18 0/1100 ScienceHouse 5 6 1 maru_tinker/1450 Beach 46 13 2 \"Strings\\schedules\\Maru:{{ ModPrefix }}SummerSolsticeFestival_1\"/2000 Beach 11 30 3 \"Strings\\schedules\\Maru:{{ ModPrefix }}SummerSolsticeFestival_1\"/2300 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1440 Railroad 38 50 2 \"Strings\\schedules\\Maru:{{ ModPrefix }}WinterSolsticeFestival_1\"/2310 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "830 ScienceHouse 5 6 1 maru_tinker/920 ScienceHouse 19 18 0/1100 ScienceHouse 5 6 1 maru_tinker/1630 Railroad 38 50 2 \"Strings\\schedules\\Maru:{{ ModPrefix }}WinterSolsticeFestival_1\"/2420 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Maru",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1440 Railroad 45 54 2 \"Strings\\schedules\\Maru:{{ ModPrefix }}WinterSolsticeFestival_1\"/2310 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "830 ScienceHouse 5 6 1 maru_tinker/920 ScienceHouse 19 18 0/1100 ScienceHouse 5 6 1 maru_tinker/1630 Railroad 45 54 2 \"Strings\\schedules\\Maru:{{ ModPrefix }}WinterSolsticeFestival_1\"/2420 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maru", 1 ],
+                    "Value": "{{ ModPrefix }}StrawberryChocolate",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "不喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maru", 5 ],
+                    "Value": "{{ ModPrefix }}HongKongStyleRedBeanIce {{ ModPrefix }}Dorayaki",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

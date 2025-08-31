@@ -1,0 +1,58 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节 - Joja超市",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Joja", "Items" ],
+            "Entries": {
+                "(O)831": {
+                    "Id": "(O)831",
+                    "ItemId": "(O)831",
+                    "Price": 50,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)SummerSquashSeeds": {
+                    "Id": "(O)SummerSquashSeeds",
+                    "ItemId": "(O)SummerSquashSeeds",
+                    "Price": 40,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)833": {
+                    "Id": "(O)833",
+                    "ItemId": "(O)833",
+                    "Price": 275,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O)486": {
+                    "Id": "(O)486",
+                    "ItemId": "(O)486",
+                    "Price": 300,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "(O)831",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)SummerSquashSeeds",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)833",
+                    "ToPosition": "Top"
+                },
+                {
+                    "ID": "(O)486",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

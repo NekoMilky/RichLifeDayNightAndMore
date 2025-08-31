@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Gus",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.gus.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.gus.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Gus",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "800 SeedShop 13 23 0/1100 Saloon 12 18 2/1600 Saloon 10 18 0/1630 Beach 32 15 2 \"Strings\\schedules\\Gus:{{ ModPrefix }}SummerSolsticeFestival_1\"/2500 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "900 SeedShop 13 23 0/1100 Saloon 12 18 2/1520 Saloon 10 18 0/1550 Railroad 40 46 2 \"Strings\\schedules\\Gus:{{ ModPrefix }}WinterSolsticeFestival_1\"/2330 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Gus",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "900 SeedShop 13 23 0/1100 Saloon 12 18 2/1520 Saloon 10 18 0/1550 Railroad 27 46 2 \"Strings\\schedules\\Gus:{{ ModPrefix }}WinterSolsticeFestival_1\"/2330 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        }
+    ]
+}

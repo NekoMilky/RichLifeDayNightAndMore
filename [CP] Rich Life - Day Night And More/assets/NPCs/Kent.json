@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.kent.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.kent.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Kent",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "MAIL saloonSportsRoom/GOTO {{ ModPrefix }}SummerSolsticeFestival_1_Normal/800 SamHouse 8 5 3/830 SeedShop 36 20 0/1110 Saloon 35 8 0/1500 SamHouse 2 21 0/1630 Beach 32 36 2 \"Characters\\Dialogue\\Kent:{{ ModPrefix }}SummerSolsticeFestival_1\"/2330 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1_Normal": "800 SamHouse 8 5 3/1010 SeedShop 36 20 0/1400 SeedShop 5 19 0/1630 Beach 32 36 2 \"Characters\\Dialogue\\Kent:{{ ModPrefix }}SummerSolsticeFestival_1\"/2330 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "MAIL saloonSportsRoom/GOTO {{ ModPrefix }}WinterSolsticeFestival_1_Normal/830 SamHouse 8 5 3/930 SeedShop 36 20 0/1110 Saloon 35 8 0/1300 SamHouse 2 21 0/1610 Railroad 50 54 0 \"Characters\\Dialogue\\Kent:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1_Normal": "830 SamHouse 8 5 3/1010 SeedShop 36 20 0/1330 SeedShop 5 19 0/1610 Railroad 50 54 0 \"Characters\\Dialogue\\Kent:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Kent",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "MAIL saloonSportsRoom/GOTO {{ ModPrefix }}WinterSolsticeFestival_1_Normal/830 SamHouse 8 5 3/930 SeedShop 36 20 0/1110 Saloon 35 8 0/1300 SamHouse 2 21 0/1610 Railroad 59 59 0 \"Characters\\Dialogue\\Kent:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1_Normal": "830 SamHouse 8 5 3/1010 SeedShop 36 20 0/1330 SeedShop 5 19 0/1610 Railroad 59 59 0 \"Characters\\Dialogue\\Kent:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "讨厌",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Kent", 7 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

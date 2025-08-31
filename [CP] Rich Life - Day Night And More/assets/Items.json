@@ -1,0 +1,44 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "作物",
+            "Action": "Include",
+            "FromFile": "assets/Items/Crops.json"
+        },
+        {
+            "JSONComment": "物品",
+            "Action": "Include",
+            "FromFile": "assets/Items/Objects.json"
+        },
+        {
+            "JSONComment": "大型打造品",
+            "Action": "Include",
+            "FromFile": "assets/Items/BigCraftables.json"            
+        },
+        {
+            "JSONComment": "家具",
+            "Action": "Include",
+            "FromFile": "assets/Items/Furniture.json"
+        },
+        {
+            "JSONComment": "菜品配方",
+            "Action": "Include",
+            "FromFile": "assets/Items/CookingRecipes.json"
+        },
+        {
+            "JSONComment": "打造配方",
+            "Action": "Include",
+            "FromFile": "assets/Items/CraftingRecipes.json"
+        },
+        {
+            "JSONComment": "建筑加工配方",
+            "Action": "Include",
+            "FromFile": "assets/Items/BuildingsProgress.json"
+        },
+        {
+            "JSONComment": "机器加工配方",
+            "Action": "Include",
+            "FromFile": "assets/Items/Machines.json"
+        }
+    ]
+}

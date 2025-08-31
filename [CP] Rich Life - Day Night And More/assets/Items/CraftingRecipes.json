@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "新配方",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Heliograph": "388 99 336 1 122 1 787 1 338 3/Home/{{ ModPrefix }}Heliograph/true/none/",
+                "Centrifuge": "390 45 335 4 338 1 787 1/Home/{{ ModPrefix }}Centrifuge/true/none/",
+                "Ice Machine": "390 50 335 5 336 2 787 1/Home/{{ ModPrefix }}IceMachine/true/s Farming 8/"
+            }
+        }
+    ]
+}

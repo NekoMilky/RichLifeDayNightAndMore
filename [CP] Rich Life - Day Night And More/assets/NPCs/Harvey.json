@@ -1,0 +1,57 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Harvey",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.harvey.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.harvey.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Harvey",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "1630 Beach 11 21 3 \"Strings\\schedules\\Harvey:{{ ModPrefix }}SummerSolsticeFestival_1\"/2330 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1200 HarveyRoom 4 5 1 harvey_radio/1430 HarveyRoom 11 5 3 harvey_read/1550 Beach 11 21 3 \"Strings\\schedules\\Harvey:{{ ModPrefix }}SummerSolsticeFestival_1\"/2400 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1430 Railroad 40 50 2 \"Strings\\schedules\\Harvey:{{ ModPrefix }}WinterSolsticeFestival_1\"/2210 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1130 HarveyRoom 4 5 1 harvey_radio/1330 HarveyRoom 11 5 3 harvey_read/1450 Railroad 40 50 2 \"Strings\\schedules\\Harvey:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Harvey",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1430 Railroad 47 54 2 \"Strings\\schedules\\Harvey:{{ ModPrefix }}WinterSolsticeFestival_1\"/2210 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1130 HarveyRoom 4 5 1 harvey_radio/1330 HarveyRoom 11 5 3 harvey_read/1450 Railroad 47 54 2 \"Strings\\schedules\\Harvey:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "一般",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Harvey", 9 ],
+                    "Value": "{{ ModPrefix }}RedBeanPopsicle {{ ModPrefix }}HongKongStyleRedBeanIce {{ ModPrefix }}CoconutMilkShavedIce {{ ModPrefix }}DarkChocolate",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "不喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Harvey", 5 ],
+                    "Value": "{{ ModPrefix }}MilkChocolate {{ ModPrefix }}WhiteChocolate {{ ModPrefix }}StrawberryChocolate",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

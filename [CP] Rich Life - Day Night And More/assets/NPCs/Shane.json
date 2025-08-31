@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Shane",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.shane.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.shane.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "1550 Beach 30 10 2 \"Strings\\schedules\\Shane:{{ ModPrefix }}SummerSolsticeFestival_1\"/2330 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1430 Beach 30 10 2 \"Strings\\schedules\\Shane:{{ ModPrefix }}SummerSolsticeFestival_1\"/2300 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1500 Railroad 43 46 2 shane_drink \"Strings\\schedules\\Shane:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "800 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1530 Railroad 43 46 2 shane_drink \"Strings\\schedules\\Shane:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Shane",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1500 Railroad 26 49 2 shane_drink \"Strings\\schedules\\Shane:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "800 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1530 Railroad 26 49 2 shane_drink \"Strings\\schedules\\Shane:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        }
+    ]
+}

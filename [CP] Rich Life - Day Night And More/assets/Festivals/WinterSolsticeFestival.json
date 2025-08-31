@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "冬至节",
+            "Action": "EditData",
+            "Target": "Data/PassiveFestivals",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival": {
+                    "DisplayName": "{{ i18n: festival.winter-solstice-festival.name }}",
+                    "Condition": "",
+                    "ShowOnCalendar": true,
+                    "Season": "Winter",
+                    "StartDay": 14,
+                    "EndDay": 14,
+                    "StartTime": 1600,
+                    "StartMessage": "{{ i18n: festival.winter-solstice-festival.open }}",
+                    "OnlyShowMessageOnFirstDay": false,
+                    "MapReplacements": {
+                        "Railroad": "{{ ModPrefix }}RailroadWinterSolsticeFestival"
+                    }
+                }
+            }
+        },
+        {
+            "JSONComment": "冬至节通知",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestivalReminder": "{{ i18n: mail.winter-solstice-festival-reminder }}"
+            }
+        }
+    ]
+}

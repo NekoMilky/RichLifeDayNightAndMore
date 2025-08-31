@@ -1,0 +1,43 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Susan",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.susan.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.susan.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Susan",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "0 Custom_SusanHouse 9 15 0/640 Custom_SusanHouse 26 15 0/800 Custom_SusanHouse 15 7 0/830 Custom_SusanHouse 13 7 0/900 Custom_SusanHouse 11 7 0/930 Custom_SusanHouse 9 7 0/1000 Custom_SusanHouse 7 7 0/1030 Custom_SusanHouse 1030 5 7 0/1100 Custom_SusanHouse 2 6 0/1200 Custom_SusanHouse 4 15 2 Susan_Read/1500 Beach 53 24 2 \"Strings\\schedules\\Susan:{{ ModPrefix }}SummerSolsticeFestival_1\"/2300 Custom_SusanHouse 24 6 1 Susan_Sleep",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "0 Custom_SusanHouse 9 15 0/700 Custom_SusanHouse 26 15 0/800 Custom_SusanHouse 15 7 0/830 Custom_SusanHouse 13 7 0/900 Custom_SusanHouse 11 7 0/930 Custom_SusanHouse 9 7 0/1000 Custom_SusanHouse 7 7 0/1030 Custom_SusanHouse 1030 5 7 0/1130 Custom_SusanHouse 2 6 0/1230 Custom_SusanHouse 4 15 2 Susan_Read/1640 Railroad 39 51 2 \"Strings\\schedules\\Susan:{{ ModPrefix }}WinterSolsticeFestival_1\"/2400 Custom_SusanHouse 24 6 1 Susan_Sleep"
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Susan", 1 ],
+                    "Value": "{{ ModPrefix }}HongKongStyleRedBeanIce {{ ModPrefix }}EggTart {{ ModPrefix }}MilkChocolate {{ ModPrefix }}WhiteChocolate {{ ModPrefix }}StrawberryChocolate {{ ModPrefix }}CandyCane {{ ModPrefix }}ChocolateMilkshake {{ ModPrefix }}ChocolateBark",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "不喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Susan", 5 ],
+                    "Value": "{{ ModPrefix }}Eggnog",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

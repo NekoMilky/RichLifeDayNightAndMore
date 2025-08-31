@@ -1,0 +1,195 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节 - 格斯的摊位",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestivalGus": {
+                    "Owners": [
+                        {
+                            "Portrait": "",
+                            "Dialogues": [],
+                            "ClosedMessage": "{{ i18n: dialogue.shop-menu.closed.gus-is-not-here }}",
+                            "Id": "SummerSolsticeFestivalGusIsNotHere",
+                            "Name": "None"
+                        },
+                        {
+                            "Name": "Gus",
+                            "Id": "Gus",
+                            "Dialogues": [
+                                {
+                                    "Id": "Normal",
+                                    "Dialogue": "{{ i18n: dialogue.shop-menu.gus }}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "(O)346",
+                            "ItemId": "(O)346",
+                            "Price": 350,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)649",
+                            "ItemId": "(O)649",
+                            "Price": 600,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 5 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)733",
+                            "ItemId": "(O)733",
+                            "Price": 325,
+                            "AvailableStock": 5,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)873",
+                            "ItemId": "(O)873",
+                            "Price": 450,
+                            "AvailableStock": "{{ Random: {{ Range: 5, 10 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)903",
+                            "ItemId": "(O)903",
+                            "Price": 300,
+                            "AvailableStock": "{{ Random: {{ Range: 5, 8 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)904",
+                            "ItemId": "(O)904",
+                            "Price": 425,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 5 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)905",
+                            "ItemId": "(O)905",
+                            "Price": 375,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 5 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)906",
+                            "ItemId": "(O)906",
+                            "Price": 600,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 5 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)907",
+                            "ItemId": "(O)907",
+                            "Price": 750,
+                            "AvailableStock": 3,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}RedBeanPopsicle",
+                            "ItemId": "(O){{ ModPrefix }}RedBeanPopsicle",
+                            "Price": 240,
+                            "AvailableStock": "{{ Random: {{ Range: 5, 20 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}HongKongStyleRedBeanIce",
+                            "ItemId": "(O){{ ModPrefix }}HongKongStyleRedBeanIce",
+                            "Price": 360,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 8 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}CoconutMilkShavedIce",
+                            "ItemId": "(O){{ ModPrefix }}CoconutMilkShavedIce",
+                            "Price": 350,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 8 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}NanyangCoconutRice",
+                            "ItemId": "(O){{ ModPrefix }}NanyangCoconutRice",
+                            "Price": 380,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 5 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}CoconutMilkJellyCubes",
+                            "ItemId": "(O){{ ModPrefix }}CoconutMilkJellyCubes",
+                            "Price": 340,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 8 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}RedBeanPopsicle (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}RedBeanPopsicle",
+                            "Price": 360,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}HongKongStyleRedBeanIce (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}HongKongStyleRedBeanIce",
+                            "Price": 540,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}CoconutMilkShavedIce (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}CoconutMilkShavedIce",
+                            "Price": 525,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}NanyangCoconutRice (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}NanyangCoconutRice",
+                            "Price": 570,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}CoconutMilkJellyCubes (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}CoconutMilkJellyCubes",
+                            "Price": 510,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}DarkChocolate (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}DarkChocolate",
+                            "Price": 660,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}WhiteChocolate (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}WhiteChocolate",
+                            "Price": 600,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}StrawberryChocolate (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}StrawberryChocolate",
+                            "Price": 600,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}ChocolateMilkshake (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}ChocolateMilkshake",
+                            "Price": 750,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

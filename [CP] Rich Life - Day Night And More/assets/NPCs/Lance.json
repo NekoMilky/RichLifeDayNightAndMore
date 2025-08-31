@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "不喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 5 ],
+                    "Value": "{{ ModPrefix }}EggTart {{ ModPrefix }}DarkChocolate",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "讨厌",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lance", 7 ],
+                    "Value": "{{ ModPrefix }}HongKongStyleRedBeanIce {{ ModPrefix }}MilkChocolate {{ ModPrefix }}WhiteChocolate {{ ModPrefix }} {{ ModPrefix }}StrawberryChocolate {{ ModPrefix }}HotCocoa {{ ModPrefix }}CandyCane {{ ModPrefix }}ChocolateMilkshake",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

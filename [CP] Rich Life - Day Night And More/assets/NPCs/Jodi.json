@@ -1,0 +1,54 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Jodi",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.jodi.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.jodi.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jodi",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 SamHouse 4 12 2 jodi_sit_down/1330 Town 22 72 1/1630 Beach 31 36 2 \"Strings\\schedules\\Jodi:{{ ModPrefix }}SummerSolsticeFestival_1\"/2330 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "830 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1140 SamHouse 4 12 2 jodi_sit_down/1320 Town 22 72 1/1610 Railroad 49 53 1 \"Strings\\schedules\\Jodi:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jodi",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "830 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1140 SamHouse 4 12 2 jodi_sit_down/1320 Town 22 72 1/1610 Railroad 58 58 1 \"Strings\\schedules\\Jodi:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jodi", 1 ],
+                    "Value": "{{ ModPrefix }}MilkChocolate",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jodi", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "地块表 - 加载到Maps/下以供其他模组作者调用",
+            "Action": "Load",
+            "Target": "Maps/Beach_SummerSolsticeFestival_1, Maps/Beach_SummerSolsticeFestival_2, Maps/Railroad_WinterSolsticeFestival_1",
+            "FromFile": "assets/Tilesheets/{{ TargetWithoutPath }}.png"
+        },
+        {
+            "JSONComment": "沙滩 - 夏至节",
+            "Action": "Include",
+            "FromFile": "assets/Maps/BeachSummerSolsticeFestival.json"
+        },
+        {
+            "JSONComment": "铁路 - 冬至节",
+            "Action": "Include",
+            "FromFile": "assets/Maps/RailroadWinterSolsticeFestival.json"
+        }
+    ]
+}

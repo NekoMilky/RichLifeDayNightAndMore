@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节",
+            "Action": "Include",
+            "FromFile": "assets/Festivals/SummerSolsticeFestival.json"
+        },
+        {
+            "JSONComment": "冬至节",
+            "Action": "Include",
+            "FromFile": "assets/Festivals/WinterSolsticeFestival.json"
+        }
+    ]
+}

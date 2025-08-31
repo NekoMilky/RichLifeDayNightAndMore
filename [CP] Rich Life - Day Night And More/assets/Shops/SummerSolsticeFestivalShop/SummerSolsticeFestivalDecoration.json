@@ -1,0 +1,341 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节 - 装饰物商人",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestivalDecoration": {
+                    "Owners": [
+                        {
+                            "Condition": "TIME 0000 1559",
+                            "Portrait": "",
+                            "Dialogues": [],
+                            "ClosedMessage": "{{ i18n: dialogue.shop-menu.closed }}",
+                            "Id": "SummerSolsticeFestivalClosed",
+                            "Name": "AnyOrNone"
+                        },
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone",
+                            "Portrait": "",
+                            "Dialogues": [
+                                {
+                                    "Id": "Normal",
+                                    "Dialogue": "{{ i18n: dialogue.shop-menu.decoration }}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "(F)TrashCatalogue",
+                            "ItemId": "(F)TrashCatalogue",
+                            "Price": 200000,
+                            "AvailableStock": 1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+
+                        {
+                            "Id": "(F)2496",
+                            "ItemId": "(F)2496",
+                            "Price": 12000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)2508",
+                            "ItemId": "(F)2508",
+                            "Price": 12000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+
+                        {
+                            "Id": "(F)134",
+                            "ItemId": "(F)134",
+                            "Price": 6000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+
+                        {
+                            "Id": "(BC)48",
+                            "ItemId": "(BC)48",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(BC)184",
+                            "ItemId": "(BC)184",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(BC)188",
+                            "ItemId": "(BC)188",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(BC)192",
+                            "ItemId": "(BC)192",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(BC)196",
+                            "ItemId": "(BC)196",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(BC)200",
+                            "ItemId": "(BC)200",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(BC)204",
+                            "ItemId": "(BC)204",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)984",
+                            "ItemId": "(F)984",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)985",
+                            "ItemId": "(F)985",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)986",
+                            "ItemId": "(F)986",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)989",
+                            "ItemId": "(F)989",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1295",
+                            "ItemId": "(F)1295",
+                            "Price": 1500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1294",
+                            "ItemId": "(F)1294",
+                            "Price": 1200,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1307",
+                            "ItemId": "(F)1307",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1371",
+                            "ItemId": "(F)1371",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1373",
+                            "ItemId": "(F)1373",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1669",
+                            "ItemId": "(F)1669",
+                            "Price": 8000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1760",
+                            "ItemId": "(F)1760",
+                            "Price": 6000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1761",
+                            "ItemId": "(F)1761",
+                            "Price": 6000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1762",
+                            "ItemId": "(F)1762",
+                            "Price": 6000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1763",
+                            "ItemId": "(F)1763",
+                            "Price": 6000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1764",
+                            "ItemId": "(F)1764",
+                            "Price": 6000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)2331",
+                            "ItemId": "(F)2331",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)2397",
+                            "ItemId": "(F)2397",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)2398",
+                            "ItemId": "(F)2398",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)FancyTree1",
+                            "ItemId": "(F)FancyTree1",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)FancyTree2",
+                            "ItemId": "(F)FancyTree2",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)FancyTree3",
+                            "ItemId": "(F)FancyTree3",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)FancyHousePlant1",
+                            "ItemId": "(F)FancyHousePlant1",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)FancyHousePlant2",
+                            "ItemId": "(F)FancyHousePlant2",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)FancyHousePlant3",
+                            "ItemId": "(F)FancyHousePlant3",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)FancyHousePlant4",
+                            "ItemId": "(F)FancyHousePlant4",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)FancyHousePlant5",
+                            "ItemId": "(F)FancyHousePlant5",
+                            "Price": 500,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+
+                        {
+                            "Id": "(F)1960",
+                            "ItemId": "(F)1960",
+                            "Price": 800,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)1975",
+                            "ItemId": "(F)1975",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)2393",
+                            "ItemId": "(F)2393",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)2624",
+                            "ItemId": "(F)2624",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)2626",
+                            "ItemId": "(F)2626",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(F)2654",
+                            "ItemId": "(F)2654",
+                            "Price": 1000,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

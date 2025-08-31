@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Abigail",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.abigail.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.abigail.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Abigail",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "a1630 Beach 26 2 0/1640 Beach 38 20 2 abigail_beach_umbrella \"Strings\\schedules\\Abigail:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2350 Beach 26 2 0/2400 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "900 SeedShop 4 5 0/1100 Forest 14 40 2/a1630 Beach 26 2 0/1640 Beach 38 20 2 abigail_beach_umbrella \"Strings\\schedules\\Abigail:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2450 Beach 26 2 0/2500 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1510 Railroad 25 54 2 \"Strings\\schedules\\Abigail:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "920 SeedShop 4 5 0/1040 Forest 14 40 2/1440 Railroad 25 54 2 \"Strings\\schedules\\Abigail:{{ ModPrefix }}WinterSolsticeFestival_1\"/2350 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Abigail",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1510 Railroad 33 51 2 \"Strings\\schedules\\Abigail:{{ ModPrefix }}WinterSolsticeFestival_1\"/2300 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "920 SeedShop 4 5 0/1040 Forest 14 40 2/1440 Railroad 33 51 2 \"Strings\\schedules\\Abigail:{{ ModPrefix }}WinterSolsticeFestival_1\"/2350 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Abigail", 1 ],
+                    "Value": "{{ ModPrefix }}MilkChocolate {{ ModPrefix }}WhiteChocolate",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

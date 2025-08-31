@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Haley",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.haley.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.haley.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Haley",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "a1610 Beach 26 2 0/1620 Beach 11 12 2 haley_beach_towel \"Strings\\schedules\\Haley:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2350 Beach 26 2 0/2400 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "830 HaleyHouse 2 5 2/1030 HaleyHouse 6 5 0/1130 HaleyHouse 8 7 1/1200 HaleyHouse 19 16 0 square_5_1_0/a1610 Beach 26 2 0/1620 Beach 11 12 2 haley_beach_towel \"Strings\\schedules\\Haley:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2420 Beach 26 2 0/2430 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1510 Railroad 28 50 2 \"Strings\\schedules\\Haley:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "900 HaleyHouse 2 5 2/1030 HaleyHouse 6 5 0/1130 HaleyHouse 8 7 1/1200 HaleyHouse 19 16 0 square_5_1_0/1540 Railroad 28 50 2 \"Strings\\schedules\\Haley:{{ ModPrefix }}WinterSolsticeFestival_1\"/2330 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Haley",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1510 Railroad 31 49 2 \"Strings\\schedules\\Haley:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "900 HaleyHouse 2 5 2/1030 HaleyHouse 6 5 0/1130 HaleyHouse 8 7 1/1200 HaleyHouse 19 16 0 square_5_1_0/1540 Railroad 31 49 2 \"Strings\\schedules\\Haley:{{ ModPrefix }}WinterSolsticeFestival_1\"/2330 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "不喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Haley", 5 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

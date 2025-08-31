@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sandy",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.sandy.1 }}",
+                "{{ ModPrefix }}SummerSolsticeFestival_2": "{{ i18n: dialogue.npc.summer-solstice-festival.sandy.2 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sandy",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "MAIL ccVault/GOTO spring/630 SandyHouse 2 5 2/a1450 BusStop 22 11 2 sandy_wave/1500 Beach 40 13 2 \"Strings\\schedules\\Sandy:{{ ModPrefix }}SummerSolsticeFestival_1\"/1910 Beach 9 15 3 \"Strings\\schedules\\Sandy:{{ ModPrefix }}SummerSolsticeFestival_2\"/a2430 BusStop 22 11 2/2440 bed"
+            }
+        }
+    ]
+}

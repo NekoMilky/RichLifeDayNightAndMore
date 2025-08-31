@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sebastian",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.sebastian.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.sebastian.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sebastian",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "a1550 Beach 28 2 0/1600 Beach 16 11 2 sebastian_beach_towel \"Strings\\schedules\\Sebastian:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2350 Beach 28 2 0/2400 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "1030 SebastianRoom 9 4 3 sebastian_computer/1230 ScienceHouse 27 9 0/1300 SebastianRoom 9 4 3 sebastian_computer/a1550 Beach 28 2 0/1600 Beach 16 11 2 sebastian_beach_towel \"Strings\\schedules\\Sebastian:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2330 Beach 28 2 0/2340 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1500 Railroad 61 51 1 \"Strings\\schedules\\Sebastian:{{ ModPrefix }}WinterSolsticeFestival_1\"/2320 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "1030 SebastianRoom 9 4 3 sebastian_computer/1230 ScienceHouse 27 9 0/1300 SebastianRoom 9 4 3 sebastian_computer/1650 Railroad 61 51 1 \"Strings\\schedules\\Sebastian:{{ ModPrefix }}WinterSolsticeFestival_1\"/2430 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sebastian",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1500 Railroad 50 56 1 \"Strings\\schedules\\Sebastian:{{ ModPrefix }}WinterSolsticeFestival_1\"/2320 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "1030 SebastianRoom 9 4 3 sebastian_computer/1230 ScienceHouse 27 9 0/1300 SebastianRoom 9 4 3 sebastian_computer/1650 Railroad 50 56 1 \"Strings\\schedules\\Sebastian:{{ ModPrefix }}WinterSolsticeFestival_1\"/2430 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "讨厌",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sebastian", 7 ],
+                    "Value": "{{ ModPrefix }}Eggnog",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

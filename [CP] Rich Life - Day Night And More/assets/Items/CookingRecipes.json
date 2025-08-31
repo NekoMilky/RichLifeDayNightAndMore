@@ -1,0 +1,391 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "原版配方修改",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Fried Egg", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Omelet", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Salad", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Cheese Cauli.", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Parsnip Soup", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Vegetable Stew", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Fried Calamari", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                }, 
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Fried Mushroom", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Bean Hotpot", 0 ],
+                    "Value": "{{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Hashbrowns", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pancakes", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Salmon Dinner", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Fish Taco", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Crispy Bass", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pepper Poppers", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Tom Kha Soup", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Trout Soup", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Chocolate Cake", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}MilkChocolate 1 {{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pink Cake", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Rhubarb Pie", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Cookies", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Spaghetti", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Fried Eel", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Spicy Eel", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Tortilla", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Red Plate", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Eggplant Parm.", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Rice Pudding", 0 ],
+                    "Value": "{{ ModPrefix }}Water 1 {{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Ice Cream", 0 ],
+                    "Value": "{{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Blueberry Tart", 0 ],
+                    "Value": "{{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Autumn's Bounty", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pumpkin Soup", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1 {{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Cran. Sauce", 0 ],
+                    "Value": "{{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Stuffing", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Survival Burger", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Roots Platter", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Algae Soup", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pale Broth", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Plum Pudding", 0 ],
+                    "Value": "{{ ModPrefix }}Water 1 {{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Artichoke Dip", 0 ],
+                    "Value": "{{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Stir Fry", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pumpkin Pie", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Radish Salad", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Fruit Salad", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Blackberry Cobbler", 0 ],
+                    "Value": "{{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Coleslaw", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Fiddlehead Risotto", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Chowder", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lobster Bisque", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1 {{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Fish Stew", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Escargot", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Maple Bar", 0 ],
+                    "Value": "{{ ModPrefix }}Cream 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Tropical Curry", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Squid Ink Ravioli", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Moss Soup", 0 ],
+                    "Value": "{{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "ReplaceDelimited",
+                    "Target": [ "Entries", "Tom Kha Soup" ],
+                    "Search": "88",
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "ReplaceDelimited",
+                    "Target": [ "Entries", "Mango Sticky Rice" ],
+                    "Search": "88",
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "ReplaceDelimited",
+                    "Target": [ "Entries", "Tropical Curry" ],
+                    "Search": "88",
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "JSONComment": "新配方",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "Chocolate Bark": "270 1 246 1 {{ ModPrefix }}CocoaPowder 1 {{ ModPrefix }}MilkChocolate 2/0 0/{{ ModPrefix }}ChocolateBark/none/",
+                "Chocolate Milkshake": "-6 1 233 1 {{ ModPrefix }}MilkChocolate 1 {{ ModPrefix }}Ice 1 {{ ModPrefix }}Cream 1/0 0/{{ ModPrefix }}ChocolateMilkshake/none/",
+                "Candy Cane": "245 1 724 1/0 0/{{ ModPrefix }}CandyCane/f Evelyn 5/",
+                "Americano": "253 1 {{ ModPrefix }}Water 1 {{ ModPrefix }}Ice 1/0 0/{{ ModPrefix }}Americano/none/",
+                "Latte": "-6 1 253 1 {{ ModPrefix }}Ice 1/0 0/{{ ModPrefix }}Latte/none/",
+                "Coconut Latte": "253 1 {{ ModPrefix }}CoconutMilk 1 {{ ModPrefix }}Ice 1/0 0/{{ ModPrefix }}CoconutLatte/none/",
+                "Mocha Cafe": "-6 1 253 1 {{ ModPrefix }}MilkChocolate 1 {{ ModPrefix }}Cream 1/0 0/{{ ModPrefix }}MochaCafe/none/",
+                "Eggnog": "-6 1 -5 1 346 1 {{ ModPrefix }}Cream 1/0 0/{{ ModPrefix }}Eggnog/none/",
+                "Hot Cocoa": "-6 1 {{ ModPrefix }}MilkChocolate 1/0 0/{{ ModPrefix }}HotCocoa/none/",
+                "Strawberry Chocolate": "-6 1 245 1 400 1 {{ ModPrefix }}CocoaPowder 1/0 0/{{ ModPrefix }}StrawberryChocolate/none/",
+                "White Chocolate": "-6 2 245 2 {{ ModPrefix }}CocoaPowder 1 {{ ModPrefix }}CocoaButter 1/0 0/{{ ModPrefix }}WhiteChocolate/none/",
+                "Dark Chocolate": "-6 1 {{ ModPrefix }}CocoaPowder 2/0 0/{{ ModPrefix }}DarkChocolate/none/",
+                "Milk Chocolate": "-6 1 245 1 {{ ModPrefix }}CocoaPowder 1/0 0/{{ ModPrefix }}MilkChocolate/f Demetrius 5/",
+                "Egg Tart": "-6 1 -5 1 245 1 246 1 {{ ModPrefix }}Salt 1 {{ ModPrefix }}Cream 1/0 0/{{ ModPrefix }}EggTart/f Gus 6/",
+                "Shrimp Tempura": "-5 1 246 1 247 1 720 1 {{ ModPrefix }}Salt 1/0 0/{{ ModPrefix }}ShrimpTempura/f Jodi 5/",
+                "Dorayaki": "-6 1 -5 2 245 1 246 1 340 1 {{ ModPrefix }}RedBean 1 {{ ModPrefix }}Salt 1/0 0/{{ ModPrefix }}Dorayaki/f Caroline 5/",
+                "Coconut Milk Jelly Cubes": "-6 1 245 1 {{ ModPrefix }}CoconutMilk 2 {{ ModPrefix }}Cream 1/0 0/{{ ModPrefix }}CoconutMilkJellyCubes/none/",
+                "Nanyang Coconut Rice": "423 1 829 1 720 1 248 1 260 1 {{ ModPrefix }}CoconutMilk 1 {{ ModPrefix }}Salt 1/0 0/{{ ModPrefix }}NanyangCoconutRice/none/",
+                "Coconut Milk Shaved Ice": "245 1 832 1 834 1 {{ ModPrefix }}RedBean 1 {{ ModPrefix }}CoconutMilk 2 {{ ModPrefix }}Ice 1 {{ ModPrefix }}Cream 1/0 0/{{ ModPrefix }}CoconutMilkShavedIce/none/",
+                "Hong Kong Style Red Bean Ice": "340 1 245 1 {{ ModPrefix }}RedBean 2 {{ ModPrefix }}CoconutMilk 1 {{ ModPrefix }}Ice 1/0 0/{{ ModPrefix }}HongKongStyleRedBeanIce/none/",
+                "Red Bean Popsicle": "-6 1 245 1 {{ ModPrefix }}RedBean 1/0 0/{{ ModPrefix }}RedBeanPopsicle/none/",
+                "Red Bean Congee": "245 1 423 1 {{ ModPrefix }}RedBean 3 {{ ModPrefix }}Salt 1 {{ ModPrefix }}Water 1 /0 0/{{ ModPrefix }}RedBeanCongee/none/"
+            }
+        }
+    ]
+}

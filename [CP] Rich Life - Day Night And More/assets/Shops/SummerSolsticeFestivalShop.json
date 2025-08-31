@@ -1,0 +1,49 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节 - Joja超市",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop/Joja.json"
+        },
+        {
+            "JSONComment": "夏至节 - 木匠的商店",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop/Carpenter.json"
+        },
+        {
+            "JSONComment": "夏至节 - 鱼店",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop/FishShop.json"
+        },
+        {
+            "JSONComment": "夏至节 - 旅行货车",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop/Traveler.json"
+        },
+        {
+            "JSONComment": "夏至节 - 皮埃尔的摊位",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop/SummerSolsticeFestivalPierre.json"
+        },
+        {
+            "JSONComment": "夏至节 - 格斯的摊位",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop/SummerSolsticeFestivalGus.json"
+        },
+        {
+            "JSONComment": "夏至节 - 装饰物商人",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop/SummerSolsticeFestivalDecoration.json"
+        },
+        {
+            "JSONComment": "夏至节 - 魔法商人",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop/SummerSolsticeFestivalMagic.json"
+        },
+        {
+            "JSONComment": "夏至节 - 美人鱼",
+            "Action": "Include",
+            "FromFile": "assets/Shops/SummerSolsticeFestivalShop/SummerSolsticeFestivalMermaid.json"
+        }
+    ]
+}

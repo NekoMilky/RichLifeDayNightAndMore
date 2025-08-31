@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Linus",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.linus.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.linus.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Linus",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "1100 Mountain 28 9 1/1300 Beach 33 4 2 \"Strings\\schedules\\Linus:{{ ModPrefix }}SummerSolsticeFestival_1\"/2100 Beach 41 5 2 \"Strings\\schedules\\Linus:{{ ModPrefix }}SummerSolsticeFestival_1\"/2300 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "1100 Mountain 28 9 1/1650 Railroad 60 41 2 \"Strings\\schedules\\Linus:{{ ModPrefix }}WinterSolsticeFestival_1\"/2430 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Linus",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "1100 Mountain 28 9 1/1650 Railroad 30 40 2 \"Strings\\schedules\\Linus:{{ ModPrefix }}WinterSolsticeFestival_1\"/2430 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Linus", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "皮埃尔的杂货店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+                "(O){{ ModPrefix }}Salt": {
+                    "Id": "(O){{ ModPrefix }}Salt",
+                    "ItemId": "(O){{ ModPrefix }}Salt",
+                    "Price": 200,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(O){{ ModPrefix }}Water": {
+                    "Id": "(O){{ ModPrefix }}Water",
+                    "ItemId": "(O){{ ModPrefix }}Water",
+                    "Price": 30,
+                    "AvailableStock": -1,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "(BC){{ ModPrefix }}Centrifuge (Recipe)": {
+                    "Id": "(BC){{ ModPrefix }}Centrifuge (Recipe)",
+                    "ItemId": "(BC){{ ModPrefix }}Centrifuge",
+                    "Price": 13000,
+                    "IsRecipe": true,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "(O){{ ModPrefix }}Salt",
+                    "AfterID": "(O)247"
+                },
+                {
+                    "ID": "(O){{ ModPrefix }}Water",
+                    "AfterID": "(O){{ ModPrefix }}Salt"
+                },
+                {
+                    "ID": "(BC){{ ModPrefix }}Centrifuge (Recipe)",
+                    "AfterID": "(BC)Dehydrator (Recipe)"
+                }
+            ]
+        }
+    ]
+}

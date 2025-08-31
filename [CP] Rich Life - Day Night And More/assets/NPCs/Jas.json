@@ -1,0 +1,61 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Jas",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.jas.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.jas.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jas",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "900 AnimalShop 7 5 0/1100 Forest 38 10 2 jas_jumprope/1520 Beach 28 13 0 \"Strings\\schedules\\Jas:{{ ModPrefix }}SummerSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "930 AnimalShop 7 5 0/1100 Forest 38 10 2 jas_jumprope/1440 Railroad 35 52 1 \"Strings\\schedules\\Jas:{{ ModPrefix }}WinterSolsticeFestival_1\"/2110 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jas",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "930 AnimalShop 7 5 0/1100 Forest 38 10 2 jas_jumprope/1440 Railroad 42 56 1 \"Strings\\schedules\\Jas:{{ ModPrefix }}WinterSolsticeFestival_1\"/2110 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jas", 1 ],
+                    "Value": "{{ ModPrefix }}CandyCane",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jas", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "讨厌",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Jas", 7 ],
+                    "Value": "{{ ModPrefix }}Eggnog {{ ModPrefix }}MochaCafe {{ ModPrefix }}CoconutLatte {{ ModPrefix }}Latte {{ ModPrefix }}Americano",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

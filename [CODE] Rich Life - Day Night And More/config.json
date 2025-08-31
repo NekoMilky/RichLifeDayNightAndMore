@@ -1,0 +1,10 @@
+{
+  "ExtendEarlyDayDaylight": true,
+  "ChangeClockTexture": true,
+  "DayStartAtSolarHeight": 6.0,
+  "EclipticObliquity": 23.436,
+  "Latitude": 66.037,
+  "NightDarkness": 0.93,
+  "NightStartAtSolarHeight": -6.0,
+  "RainingDarkness": 0.3
+}

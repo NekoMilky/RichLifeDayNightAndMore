@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Olivia",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.olivia.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.olivia.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Olivia",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "1510 Beach 24 29 3 \"Strings\\schedules\\Olivia:{{ ModPrefix }}SummerSolsticeFestival_1\"/2310 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "0 Custom_JenkinsHouse 19 5 0/610 Custom_JenkinsHouse 5 8 0/700 Custom_JenkinsHouse 32 37 0/830 Custom_JenkinsHouse 20 9 Olivia_Yoga/1100 Custom_JenkinsHouse 16 12 0 Olivia_Art/1600 Beach 24 29 3 \"Strings\\schedules\\Olivia:{{ ModPrefix }}SummerSolsticeFestival_1\"/2330 Custom_JenkinsHouse 19 5 1 Olivia_Sleep",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1450 Railroad 45 51 2 \"Strings\\schedules\\Olivia:{{ ModPrefix }}WinterSolsticeFestival_1\"/2200 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "0 Custom_JenkinsHouse 19 5 0/610 Custom_JenkinsHouse 5 8 0/730 Custom_JenkinsHouse 32 37 0/840 Custom_JenkinsHouse 20 9 Olivia_Yoga/1040 Custom_JenkinsHouse 16 12 0 Olivia_Art/1440 Railroad 45 51 2 \"Strings\\schedules\\Olivia:{{ ModPrefix }}WinterSolsticeFestival_1\"/2220 Custom_JenkinsHouse 19 5 1 Olivia_Sleep"
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "讨厌",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Olivia", 7 ],
+                    "Value": "{{ ModPrefix }}Eggnog",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

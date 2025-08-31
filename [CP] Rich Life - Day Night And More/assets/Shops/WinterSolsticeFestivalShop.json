@@ -1,0 +1,34 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "冬至节 - Joja超市",
+            "Action": "Include",
+            "FromFile": "assets/Shops/WinterSolsticeFestivalShop/Joja.json"
+        },
+        {
+            "JSONComment": "冬至节 - 木匠的商店",
+            "Action": "Include",
+            "FromFile": "assets/Shops/WinterSolsticeFestivalShop/Carpenter.json"
+        },
+        {
+            "JSONComment": "冬至节 - 鱼店",
+            "Action": "Include",
+            "FromFile": "assets/Shops/WinterSolsticeFestivalShop/FishShop.json"
+        },
+        {
+            "JSONComment": "冬至节 - 旅行货车",
+            "Action": "Include",
+            "FromFile": "assets/Shops/WinterSolsticeFestivalShop/Traveler.json"
+        },
+        {
+            "JSONComment": "冬至节 - 皮埃尔的摊位",
+            "Action": "Include",
+            "FromFile": "assets/Shops/WinterSolsticeFestivalShop/WinterSolsticeFestivalPierre.json"
+        },
+        {
+            "JSONComment": "冬至节 - 格斯的摊位",
+            "Action": "Include",
+            "FromFile": "assets/Shops/WinterSolsticeFestivalShop/WinterSolsticeFestivalGus.json"
+        }
+    ]
+}

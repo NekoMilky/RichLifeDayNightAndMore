@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/George",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.george.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.george.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/George",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1630 Beach 11 39 2 \"Strings\\schedules\\George:{{ ModPrefix }}SummerSolsticeFestival_1\"/2250 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "730 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1610 Railroad 54 53 1 \"Strings\\schedules\\George:{{ ModPrefix }}WinterSolsticeFestival_1\"/2110 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/George",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "730 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1610 Railroad 62 55 1 \"Strings\\schedules\\George:{{ ModPrefix }}WinterSolsticeFestival_1\"/2110 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        }
+    ]
+}

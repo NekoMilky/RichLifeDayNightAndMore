@@ -1,0 +1,152 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "产油机",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)19", "OutputRules" ],
+            "Entries": {
+                "{{ ModPrefix }}CocoaBean": {
+                    "Id": "{{ ModPrefix }}CocoaBean",
+                    "Triggers": [
+                        {
+                            "Id": "Default",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ ModPrefix }}CocoaBean",
+                            "RequiredCount": 3
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Default",
+                            "ItemId": "(O){{ ModPrefix }}CocoaButter"
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC){{ ModPrefix }}Centrifuge": {
+                    "OutputRules": [
+                        {
+                            "Id": "Coconut",
+                            "Triggers": [
+                                {
+                                    "Id": "Default",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)88",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "Default",
+                                    "ItemId": "(O){{ ModPrefix }}CoconutMilk",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 270
+                        },
+                        {
+                            "Id": "Milk",
+                            "Triggers": [
+                                {
+                                    "Id": "GoatMilk",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)436",
+                                    "RequiredCount": 3
+                                },
+                                {
+                                    "Id": "Milk",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)184",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "Default",
+                                    "ItemId": "(O){{ ModPrefix }}Cream"
+                                }
+                            ],
+                            "MinutesUntilReady": 330
+                        },
+                        {
+                            "Id": "LargeMilk",
+                            "Triggers": [
+                                {
+                                    "Id": "LargeGoatMilk",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)438",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "LargeMilk",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)186",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "Default",
+                                    "ItemId": "(O){{ ModPrefix }}Cream",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 400
+                        }
+                    ],
+                    "LoadEffects": [
+                        {
+                            "Id": "Default",
+                            "Sounds": [
+                                {           
+                                    "Id": "Ship"
+                                }
+                            ]
+                        }
+                    ],
+                    "WobbleWhileWorking": true
+                },
+                "(BC){{ ModPrefix }}IceMachine": {
+                    "OutputRules": [
+                        {
+                            "Id": "{{ ModPrefix }}Water",
+                            "Triggers": [
+                                {
+                                    "Id": "Default",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ ModPrefix }}Water",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "Default",
+                                    "ItemId": "(O){{ ModPrefix }}Ice"
+                                }
+                            ],
+                            "MinutesUntilReady": 180
+                        }
+                    ],
+                    "LoadEffects": [
+                        {
+                            "Id": "Default",
+                            "Sounds": [
+                                {           
+                                    "Id": "Ship"
+                                }
+                            ]
+                        }
+                    ],
+                    "WobbleWhileWorking": true
+                }
+            }
+        }
+    ]
+}

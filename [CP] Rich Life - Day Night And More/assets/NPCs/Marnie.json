@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Marnie",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.marnie.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.marnie.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Marnie",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1610 Beach 28 10 2 \"Strings\\schedules\\Marnie:{{ ModPrefix }}SummerSolsticeFestival_1\"/2030 Beach 38 36 2 \"Strings\\schedules\\Marnie:{{ ModPrefix }}SummerSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "840 AnimalShop 17 5 0/920 AnimalShop 12 14 2/1500 Railroad 43 50 1 marnie_drink \"Strings\\schedules\\Marnie:{{ ModPrefix }}WinterSolsticeFestival_1\"/2150 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Marnie",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "840 AnimalShop 17 5 0/920 AnimalShop 12 14 2/1500 Railroad 25 50 1 marnie_drink \"Strings\\schedules\\Marnie:{{ ModPrefix }}WinterSolsticeFestival_1\"/2150 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Marnie", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

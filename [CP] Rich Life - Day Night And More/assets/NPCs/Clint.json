@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Clint",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.clint.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.clint.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Clint",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "850 Blacksmith 3 13 2/1700 Beach 22 19 2 \"Strings\\schedules\\Clint:{{ ModPrefix }}SummerSolsticeFestival_1\"/2430 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "850 Blacksmith 3 13 2/1550 Railroad 58 48 2 \"Strings\\schedules\\Clint:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Clint",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "850 Blacksmith 3 13 2/1550 Railroad 64 52 2 \"Strings\\schedules\\Clint:{{ ModPrefix }}WinterSolsticeFestival_1\"/2240 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        }
+    ]
+}

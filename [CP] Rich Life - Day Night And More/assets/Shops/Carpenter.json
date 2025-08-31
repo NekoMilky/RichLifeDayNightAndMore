@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "木匠的商店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Carpenter", "Items" ],
+            "Entries": {
+                "(BC){{ ModPrefix }}Heliograph (Recipe)": {
+                    "Id": "(BC){{ ModPrefix }}Heliograph (Recipe)",
+                    "ItemId": "(BC){{ ModPrefix }}Heliograph",
+                    "Price": 15000,
+                    "IsRecipe": true,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "(BC){{ ModPrefix }}Heliograph (Recipe)",
+                    "AfterID": "(BC)BigChest (Recipe)"
+                }
+            ]
+        }
+    ]
+}

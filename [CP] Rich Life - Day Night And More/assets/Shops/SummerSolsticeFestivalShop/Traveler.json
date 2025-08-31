@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节 - 旅行货车",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Traveler", "Owners" ],
+            "Entries": {
+                "SummerSolsticeFestivalClosed": {
+                    "Condition": "TIME 0000 1559",
+                    "Portrait": "",
+                    "Dialogues": [],
+                    "ClosedMessage": "{{ i18n: dialogue.shop-menu.closed }}",
+                    "Id": "SummerSolsticeFestivalClosed",
+                    "Name": "AnyOrNone"
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "SummerSolsticeFestivalClosed",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

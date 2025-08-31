@@ -1,0 +1,44 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "磨坊",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [ "Mill", "ItemConversions" ],
+            "Entries": {
+                "{{ ModPrefix }}CocoaBean": {
+                    "Id": "{{ ModPrefix }}CocoaBean",
+                    "RequiredTags": [
+                        "id_o_{{ ModPrefix }}CocoaBean"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O){{ ModPrefix }}CocoaPowder",
+                            "ItemId": "(O){{ ModPrefix }}CocoaPowder"
+                        }
+                    ]
+                },
+                "Coconut": {
+                    "Id": "Coconut",
+                    "RequiredTags": [
+                        "id_o_88"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O){{ ModPrefix }}CoconutMilk",
+                            "ItemId": "(O){{ ModPrefix }}CoconutMilk"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

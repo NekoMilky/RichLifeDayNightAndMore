@@ -1,0 +1,46 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Robin",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.robin.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Robin",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "800 ScienceHouse 8 18 2/a1730 Beach 44 15 2/1740 Beach 44 15 1 robin_dance/2000 Beach 11 31 3 \"Strings\\schedules\\Robin:{{ ModPrefix }}SummerSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "800 ScienceHouse 8 18 2/a1710 Railroad 44 53 2/1720 Railroad 44 53 1 robin_dance/2400 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Robin",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "800 ScienceHouse 8 18 2/a1710 Railroad 23 51 2/1720 Railroad 23 51 1 robin_dance/2400 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Robin", 3 ],
+                    "Value": "{{ ModPrefix }}CoconutMilk",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

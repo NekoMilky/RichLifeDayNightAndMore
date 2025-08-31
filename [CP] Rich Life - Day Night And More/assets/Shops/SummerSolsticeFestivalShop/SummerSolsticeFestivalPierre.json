@@ -1,0 +1,104 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "夏至节 - 皮埃尔的摊位",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestivalPierre": {
+                    "Owners": [
+                        {
+                            "Portrait": "",
+                            "Dialogues": [],
+                            "ClosedMessage": "{{ i18n: dialogue.shop-menu.closed.pierre-is-not-here }}",
+                            "Id": "SummerSolsticeFestivalPierreIsNotHere",
+                            "Name": "None"
+                        },
+                        {
+                            "Name": "Pierre",
+                            "Id": "Pierre",
+                            "Dialogues": [
+                                {
+                                    "Id": "Normal",
+                                    "Dialogue": "{{ i18n: dialogue.shop-menu.pierre }}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "(O)499",
+                            "ItemId": "(O)499",
+                            "Price": 500,
+                            "AvailableStock": 1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)486",
+                            "ItemId": "(O)486",
+                            "Price": 325,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)833",
+                            "ItemId": "(O)833",
+                            "Price": 300,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}RedBeanSeeds",
+                            "ItemId": "(O){{ ModPrefix }}RedBeanSeeds",
+                            "Price": 30,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}CocoaBean",
+                            "ItemId": "(O){{ ModPrefix }}CocoaBean",
+                            "Price": 35,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)SummerSquashSeeds",
+                            "ItemId": "(O)SummerSquashSeeds",
+                            "Price": 40,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)831",
+                            "ItemId": "(O)831",
+                            "Price": 50,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)69",
+                            "ItemId": "(O)69",
+                            "Price": 6000,
+                            "AvailableStock": 1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)835",
+                            "ItemId": "(O)835",
+                            "Price": 6000,
+                            "AvailableStock": 1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(BC)231",
+                            "ItemId": "(BC)231",
+                            "Price": 4000,
+                            "AvailableStock": "{{ Random: {{ Range: 5, 10 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

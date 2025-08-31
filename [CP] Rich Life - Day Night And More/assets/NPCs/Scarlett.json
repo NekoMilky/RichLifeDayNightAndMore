@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Scarlett", 1 ],
+                    "Value": "{{ ModPrefix }}MilkChocolate {{ ModPrefix }}StrawberryChocolate {{ ModPrefix }}CandyCane",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

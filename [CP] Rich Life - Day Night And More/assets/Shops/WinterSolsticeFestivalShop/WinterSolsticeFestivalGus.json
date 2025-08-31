@@ -1,0 +1,125 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "冬至节 - 格斯的摊位",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestivalGus": {
+                    "Owners": [
+                        {
+                            "Portrait": "",
+                            "Dialogues": [],
+                            "ClosedMessage": "{{ i18n: dialogue.shop-menu.closed.gus-is-not-here }}",
+                            "Id": "WinterSolsticeFestivalGusIsNotHere",
+                            "Name": "None"
+                        },
+                        {
+                            "Name": "Gus",
+                            "Id": "Gus",
+                            "Dialogues": [
+                                {
+                                    "Id": "Normal",
+                                    "Dialogue": "{{ i18n: dialogue.shop-menu.gus }}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "(O){{ ModPrefix }}RedBeanCongee",
+                            "ItemId": "(O){{ ModPrefix }}RedBeanCongee",
+                            "Price": 350,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 5 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}HotCocoa",
+                            "ItemId": "(O){{ ModPrefix }}HotCocoa",
+                            "Price": 360,
+                            "AvailableStock": "{{ Random: {{ Range: 5, 8 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}Eggnog",
+                            "ItemId": "(O){{ ModPrefix }}Eggnog",
+                            "Price": 900,
+                            "AvailableStock": "{{ Random: {{ Range: 3, 5 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}CandyCane",
+                            "ItemId": "(O){{ ModPrefix }}CandyCane",
+                            "Price": 250,
+                            "AvailableStock": "{{ Random: {{ Range: 5, 10 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}ChocolateBark",
+                            "ItemId": "(O){{ ModPrefix }}ChocolateBark",
+                            "Price": 440,
+                            "AvailableStock": "{{ Random: {{ Range: 5, 8 }} }}",
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}RedBeanCongee (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}RedBeanCongee",
+                            "Price": 525,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}HotCocoa (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}HotCocoa",
+                            "Price": 540,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}Eggnog (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}Eggnog",
+                            "Price": 1200,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}MochaCafe (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}MochaCafe",
+                            "Price": 1000,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}CoconutLatte (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}CoconutLatte",
+                            "Price": 1100,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}Latte (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}Latte",
+                            "Price": 940,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}Americano (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}Americano",
+                            "Price": 940,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O){{ ModPrefix }}ChocolateBark (Recipe)",
+                            "ItemId": "(O){{ ModPrefix }}ChocolateBark",
+                            "Price": 660,
+                            "IsRecipe": true,
+                            "IgnoreShopPriceModifiers": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Caroline",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.caroline.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.caroline.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Caroline",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "900 SeedShop 22 5 2/1040 SeedShop 21 5 3/1330 SeedShop 15 23 0/1440 Town 48 33 2/1620 Beach 13 6 2 \"Strings\\schedules\\Caroline:{{ ModPrefix }}SummerSolsticeFestival_1\"/2500 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "930 SeedShop 22 5 2/1100 SeedShop 21 5 3/1230 SeedShop 15 23 0/1420 Town 48 33 2/1600 Railroad 33 47 2 \"Strings\\schedules\\Caroline:{{ ModPrefix }}WinterSolsticeFestival_1\"/2330 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Caroline",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "930 SeedShop 22 5 2/1100 SeedShop 21 5 3/1230 SeedShop 15 23 0/1420 Town 48 33 2/1600 Railroad 22 47 2 \"Strings\\schedules\\Caroline:{{ ModPrefix }}WinterSolsticeFestival_1\"/2330 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        }
+    ]
+}

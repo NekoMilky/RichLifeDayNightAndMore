@@ -1,0 +1,186 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/SixDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/SevenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/EightDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/NineDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/TenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/ElevenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/TwelveDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/ThirteenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/FourteenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/FifteenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/SixteenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/SeventeenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/EighteenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/NineteenDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/TwentyDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/TwentyOneDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/TwentyTwoDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/TwentyThreeDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/TwentyFourDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/{{ NaiveMilky.RichLifeDayNightAndMore/TwentyFiveDayOrNight }}.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/Sun.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange",
+            "When": {
+                "NaiveMilky.RichLifeDayNightAndMore/ShowClockSun": true
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/ClockTexture/Moon.png",
+            "ToArea": { "X": 336, "Y": 436, "Width": 20, "Height": 32 },
+            "PatchMode": "Overlay",
+            "Update": "OnTimeChange",
+            "When": {
+                "NaiveMilky.RichLifeDayNightAndMore/ShowClockMoon": true
+            }
+        }
+    ]
+}

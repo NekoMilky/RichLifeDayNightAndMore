@@ -1,0 +1,46 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Demetrius",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.demetrius.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Demetrius",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "750 ScienceHouse 16 19 2 demetrius_read/1000 ScienceHouse 22 20 1 demetrius_notes/1200 ScienceHouse 7 18 1/a1730 Beach 45 15 2/1740 Beach 45 15 3 demetrius_dance/2000 Beach 11 32 3 \"Strings\\schedules\\Demetrius:{{ ModPrefix }}SummerSolsticeFestival_1\"/2230 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "810 ScienceHouse 16 19 2 demetrius_read/1000 ScienceHouse 22 20 1 demetrius_notes/1200 ScienceHouse 7 18 1/a1710 Railroad 45 53 2/1720 Railroad 45 53 3 demetrius_dance/2400 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Demetrius",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "810 ScienceHouse 16 19 2 demetrius_read/1000 ScienceHouse 22 20 1 demetrius_notes/1200 ScienceHouse 7 18 1/a1710 Railroad 24 51 2/1720 Railroad 24 51 3 demetrius_dance/2400 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "最爱",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Demetrius", 1 ],
+                    "Value": "{{ ModPrefix }}RedBeanPopsicle {{ ModPrefix }}HongKongStyleRedBeanIce {{ ModPrefix }}CoconutMilkShavedIce {{ ModPrefix }}StrawberryChocolate",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

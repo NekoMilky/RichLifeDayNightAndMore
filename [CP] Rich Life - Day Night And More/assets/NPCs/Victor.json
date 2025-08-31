@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Victor",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.victor.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.victor.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Victor",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "1510 Beach 24 28 3 \"Strings\\schedules\\Victor:{{ ModPrefix }}SummerSolsticeFestival_1\"/2300 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "0 Custom_JenkinsHouse 31 5 0/610 Custom_JenkinsHouse 31 5 1/730 Custom_JenkinsHouse 24 25 0/830 Custom_JenkinsHouse 30 37 0/1000 Custom_JenkinsHouse 6 37 2 Victor_Book2/1610 Beach 24 28 3 \"Strings\\schedules\\Victor:{{ ModPrefix }}SummerSolsticeFestival_1\"/2310 Custom_JenkinsHouse 31 5 1 Victor_Sleep",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1440 Railroad 46 51 2 \"Strings\\schedules\\Victor:{{ ModPrefix }}WinterSolsticeFestival_1\"/2200 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "0 Custom_JenkinsHouse 31 5 0/610 Custom_JenkinsHouse 31 5 1/750 Custom_JenkinsHouse 24 25 0/900 Custom_JenkinsHouse 30 37 0/1020 Custom_JenkinsHouse 6 37 2 Victor_Book2/1450 Railroad 46 51 2 \"Strings\\schedules\\Victor:{{ ModPrefix }}WinterSolsticeFestival_1\"/2230 Custom_JenkinsHouse 31 5 1 Victor_Sleep"
+            }
+        }
+    ]
+}

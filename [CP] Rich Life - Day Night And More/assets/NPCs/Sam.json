@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sam",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.sam.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.sam.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sam",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "a1630 Beach 28 2 0/1640 Beach 44 22 2 sam_beach_towel \"Strings\\schedules\\Sam:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2400 Beach 28 2 0/2410 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/a1630 Beach 28 2 0/1640 Beach 44 22 2 sam_beach_towel \"Strings\\schedules\\Sam:{{ ModPrefix }}SummerSolsticeFestival_1\"/a2400 Beach 28 2 0/2410 bed",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1440 Railroad 62 49 2 \"Strings\\schedules\\Sam:{{ ModPrefix }}WinterSolsticeFestival_1\"/2310 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "1000 SamHouse 15 13 0/1100 SamHouse 17 15 2 sam_guitar/1500 Railroad 62 49 2 \"Strings\\schedules\\Sam:{{ ModPrefix }}WinterSolsticeFestival_1\"/2310 bed"
+            }
+        },
+        {
+            "JSONComment": "新日程 - SVE补丁",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sam",
+            "Entries": {
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1440 Railroad 51 53 2 \"Strings\\schedules\\Sam:{{ ModPrefix }}WinterSolsticeFestival_1\"/2310 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "1000 SamHouse 15 13 0/1100 SamHouse 17 15 2 sam_guitar/1500 Railroad 51 53 2 \"Strings\\schedules\\Sam:{{ ModPrefix }}WinterSolsticeFestival_1\"/2310 bed"
+            },
+            "When": {
+                "HasSVE": true
+            }
+        }
+    ]
+}

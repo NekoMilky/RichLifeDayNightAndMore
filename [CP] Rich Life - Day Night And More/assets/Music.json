@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "音乐",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ ModPrefix }}FirstSnow": {
+                    "ID": "{{ ModPrefix }}FirstSnow",
+                    "Category": "Music",
+                    "FilePaths": [ 
+                        "{{AbsoluteFilePath: assets/Music/lolurio_First_Snow.ogg}}" 
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        }
+    ]
+}

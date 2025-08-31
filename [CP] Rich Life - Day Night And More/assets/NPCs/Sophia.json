@@ -1,0 +1,45 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "加载新对话",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sophia",
+            "Entries": {
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "{{ i18n: dialogue.npc.summer-solstice-festival.sophia.1 }}",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "{{ i18n: dialogue.npc.winter-solstice-festival.sophia.1 }}"
+            }
+        },
+        {
+            "JSONComment": "加载新日程",
+            "Action": "EditData",
+            "Target": "Characters/schedules/Sophia",
+            "Entries": {
+                "marriage_{{ ModPrefix }}SummerSolsticeFestival_1": "1520 Beach 50 45 2 \"Strings\\schedules\\Sophia:{{ ModPrefix }}SummerSolsticeFestival_1\"/2320 bed",
+                "{{ ModPrefix }}SummerSolsticeFestival_1": "0 Custom_SophiaHouse 23 6 3/610 Custom_SophiaHouse 23 6 1/850 Custom_SophiaHouse 26 23 0/1030 Custom_SophiaHouse 17 22 2 Sophia_Read/1340 Custom_SophiaHouse 4 23 1 Sophia_Phone/1620 Beach 50 45 2 \"Strings\\schedules\\Sophia:{{ ModPrefix }}SummerSolsticeFestival_1\"/2350 Custom_SophiaHouse 24 6 1 Sophia_Sleep",
+                "marriage_{{ ModPrefix }}WinterSolsticeFestival_1": "1450 Railroad 60 56 2 \"Strings\\schedules\\Sophia:{{ ModPrefix }}WinterSolsticeFestival_1\"/2200 bed",
+                "{{ ModPrefix }}WinterSolsticeFestival_1": "0 Custom_SophiaHouse 23 6 3/630 Custom_SophiaHouse 23 6 1/900 Custom_SophiaHouse 26 23 0/1030 Custom_SophiaHouse 17 22 2 Sophia_Read/1240 Custom_SophiaHouse 4 23 1 Sophia_Phone/1440 Railroad 60 56 2 \"Strings\\schedules\\Sophia:{{ ModPrefix }}WinterSolsticeFestival_1\"/2200 Custom_SophiaHouse 24 6 1 Sophia_Sleep"
+            }
+        },
+        {
+            "JSONComment": "礼物喜好",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "JSONComment": "喜欢",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sophia", 3 ],
+                    "Value": "{{ ModPrefix }}NanyangCoconutRice",
+                    "Delimiter": " "
+                },
+                {
+                    "JSONComment": "讨厌",
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sophia", 7 ],
+                    "Value": "{{ ModPrefix }}Eggnog",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "Changes": [
+        {
+            "JSONComment": "冬至节 - 皮埃尔的摊位",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ ModPrefix }}WinterSolsticeFestivalPierre": {
+                    "Owners": [
+                        {
+                            "Portrait": "",
+                            "Dialogues": [],
+                            "ClosedMessage": "{{ i18n: dialogue.shop-menu.closed.pierre-is-not-here }}",
+                            "Id": "WinterSolsticeFestivalPierreIsNotHere",
+                            "Name": "None"
+                        },
+                        {
+                            "Name": "Pierre",
+                            "Id": "Pierre",
+                            "Dialogues": [
+                                {
+                                    "Id": "Normal",
+                                    "Dialogue": "{{ i18n: dialogue.shop-menu.pierre }}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "(O)499",
+                            "ItemId": "(O)499",
+                            "Price": 500,
+                            "AvailableStock": 1,
+                            "IgnoreShopPriceModifiers": true
+                        },
+                        {
+                            "Id": "(O)PowdermelonSeeds",
+                            "ItemId": "(O)PowdermelonSeeds",
+                            "Price": 40,
+                            "AvailableStock": -1,
+                            "IgnoreShopPriceModifiers": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
