@@ -25,12 +25,6 @@
             "FromFile": "assets/Items/Furniture/Window_With_Blue_Dot_Curtain.png"
         },
         {
-            "JSONComment": "蓝色天空遮光帘窗户",
-            "Action": "Load",
-            "Target": "{{ ModPath }}Furniture/WindowWithBlueSkyCurtain",
-            "FromFile": "assets/Items/Furniture/Window_With_Blue_Sky_Curtain.png"
-        },
-        {
             "JSONComment": "绿色遮光帘窗户",
             "Action": "Load",
             "Target": "{{ ModPath }}Furniture/WindowWithGreenCurtain",
@@ -85,6 +79,12 @@
             "FromFile": "assets/Items/Furniture/Window_With_Pink_Heart_Curtain.png"
         },
         {
+            "JSONComment": "粉色天空遮光帘窗户",
+            "Action": "Load",
+            "Target": "{{ ModPath }}Furniture/WindowWithPinkSkyCurtain",
+            "FromFile": "assets/Items/Furniture/Window_With_Pink_Sky_Curtain.png"
+        },
+        {
             "JSONComment": "紫色遮光帘窗户",
             "Action": "Load",
             "Target": "{{ ModPath }}Furniture/WindowWithPurpleCurtain",
@@ -122,7 +122,6 @@
                 "{{ ModPrefix }}WindowWithBlackCurtain": "Window With Black Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-black-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithBlackCurtain",
                 "{{ ModPrefix }}WindowWithBlueCurtain": "Window With Blue Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-blue-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithBlueCurtain",
                 "{{ ModPrefix }}WindowWithBlueDotCurtain": "Window With Blue Dot Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-blue-dot-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithBlueDotCurtain",
-                "{{ ModPrefix }}WindowWithBlueSkyCurtain": "Window With Blue Sky Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-blue-sky-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithBlueSkyCurtain",
                 "{{ ModPrefix }}WindowWithGreenCurtain": "Window With Green Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-green-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithGreenCurtain",
                 "{{ ModPrefix }}WindowWithOrangeCurtain": "Window With Orange Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-orange-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithOrangeCurtain",
                 "{{ ModPrefix }}WindowWithOrangeFlowerCurtain": "Window With Orange Flower Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-orange-flower-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithOrangeFlowerCurtain",
@@ -132,6 +131,7 @@
                 "{{ ModPrefix }}WindowWithPinkDotCurtain": "Window With Pink Dot Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-dot-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkDotCurtain",
                 "{{ ModPrefix }}WindowWithPinkGridCurtain": "Window With Pink Grid Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-grid-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkGridCurtain",
                 "{{ ModPrefix }}WindowWithPinkHeartCurtain": "Window With Pink Heart Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-heart-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkHeartCurtain",
+                "{{ ModPrefix }}WindowWithPinkSkyCurtain": "Window With Pink Sky Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-pink-sky-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPinkSkyCurtain",
                 "{{ ModPrefix }}WindowWithPurpleCurtain": "Window With Purple Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-purple-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPurpleCurtain",
                 "{{ ModPrefix }}WindowWithPurpleForestCurtain": "Window With Purple Forest Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-purple-forest-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithPurpleForestCurtain",
                 "{{ ModPrefix }}WindowWithRedCurtain": "Window With Red Curtain/window/-1/-1/1/500/-1/{{ i18n: furniture.window-with-red-curtain.name }}/0/{{ ModPathT }}Furniture\\WindowWithRedCurtain",
