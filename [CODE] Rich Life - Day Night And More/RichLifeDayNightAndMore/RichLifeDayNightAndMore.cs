@@ -19,15 +19,16 @@ public class RichLifeDayNightAndMore : Mod
 	private void ApplyHarmonyPatch()
 	{
 		Harmony ModHarmony = new Harmony(ModManifest.UniqueID);
-		Game1ClassPatch.ApplyPatch(ModHarmony);
+		FarmerClassPatch.ApplyPatch(ModHarmony);
+        FarmHouseClassPatch.ApplyPatch(ModHarmony);
+        ForestClassPatch.ApplyPatch(ModHarmony);
+        FurnitureClassPatch.ApplyPatch(ModHarmony);
+        Game1ClassPatch.ApplyPatch(ModHarmony);
 		GameLocationClassPatch.ApplyPatch(ModHarmony);
-		NPCClassPatch.ApplyPatch(ModHarmony);
+        IslandFarmHouseClassPatch.ApplyPatch(ModHarmony);
+        NPCClassPatch.ApplyPatch(ModHarmony);
 		ObjectClassPatch.ApplyPatch(ModHarmony);
 		UtilityClassPatch.ApplyPatch(ModHarmony);
-		FarmHouseClassPatch.ApplyPatch(ModHarmony);
-		ForestClassPatch.ApplyPatch(ModHarmony);
-		IslandFarmHouseClassPatch.ApplyPatch(ModHarmony);
-		FurnitureClassPatch.ApplyPatch(ModHarmony);
 	}
 
 	// 向内容包提供令牌

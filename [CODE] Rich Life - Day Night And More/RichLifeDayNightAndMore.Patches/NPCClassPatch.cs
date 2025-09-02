@@ -9,7 +9,6 @@ using RichLifeDayNightAndMore.PassiveFestivals;
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Locations;
-using StardewValley.Objects;
 
 namespace RichLifeDayNightAndMore.Patches;
 
@@ -72,42 +71,15 @@ internal static class NPCClassPatch
 	// 新一天判断配偶睡眠质量
 	private static void PostfixResetForNewDay(ref NPC __instance)
 	{
-		__instance.modData[RichLifeDayNightAndMore.ModPrefix + "SleptWell"] = true.ToString();
-		const int MaxFriendshipPointLoss = -15;
-		const double StartingToSleepBadlyDayLength = 16.0;
-        const double TrulySleepBadlyDayLength = 18.0;
-        double DayLength = SolarCalculator.GetDayLength();
-		if (DayLength < StartingToSleepBadlyDayLength || !__instance.isMarried() || __instance.isRoommate() || !__instance.sleptInBed.Value)
+		if (!__instance.isMarried() || __instance.isRoommate() || !__instance.sleptInBed.Value)
 		{
 			return;
 		}
 		Farmer Farmer = __instance.getSpouse();
 		FarmHouse House = Utility.getHomeOfFarmer(Farmer);
 		Point SpouseBedSpot = House.GetSpouseBed().GetBedSpot();
-		for (int TileX = SpouseBedSpot.X - 5; TileX <= SpouseBedSpot.X + 5; TileX++)
-		{
-			for (int TileY = SpouseBedSpot.Y - 5; TileY <= SpouseBedSpot.Y; TileY++)
-			{
-				Furniture ThisFurniture = House.GetFurnitureAt(new(TileX, TileY));
-				if (ThisFurniture == null || ThisFurniture.furniture_type.Value != 13 || ModFurniture.CheckWindowWithCurtain(ThisFurniture.ItemId))
-				{
-					continue;
-				}
-				if (DayLength > TrulySleepBadlyDayLength)
-				{
-					__instance.modData[RichLifeDayNightAndMore.ModPrefix + "SleptWell"] = false.ToString();
-					Farmer.changeFriendship(MaxFriendshipPointLoss, __instance);
-					return;
-				}
-				double SleepBadlyChance = (DayLength - StartingToSleepBadlyDayLength) / (TrulySleepBadlyDayLength - StartingToSleepBadlyDayLength);
-				if (Game1.random.NextDouble() < SleepBadlyChance)
-				{
-					__instance.modData[RichLifeDayNightAndMore.ModPrefix + "SleptWell"] = false.ToString();
-					Farmer.changeFriendship((int)(MaxFriendshipPointLoss * SleepBadlyChance), __instance);
-				}
-				return;
-			}
-		}
+        __instance.modData[RichLifeDayNightAndMore.ModPrefix + "SleptWell"] = FarmerClassPatch.IsSleptWell(House, SpouseBedSpot, out int FriendshipLoss, out float _).ToString();
+        Farmer.changeFriendship(FriendshipLoss, __instance);
 	}
 
 	// 配偶因睡不好拒绝接吻
